@@ -6,3 +6,5 @@
 - [Sead Fejzagić](https://github.com/sejooo1)
 - [Nermin Obućina](https://github.com/nobucina1)
 - [Edwin Graca](https://github.com/EdwinTriton)
+
+## Tema: Informacioni sistem za biblioteku
