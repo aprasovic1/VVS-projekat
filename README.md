@@ -8,3 +8,6 @@
 - [Edwin Graca](https://github.com/EdwinTriton)
 
 ## Tema: Informacioni sistem za biblioteku
+Ovaj sistem služi za evidenciju članova biblioteke, knjiga, rezervacija kao i za administrativne 
+poslove uposlenika biblioteke. Cilj ovog sistema je uspostaviti jednostavniji i brži 
+rad u biblioteci.
