@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\ETF materijali\\Verifikacija i validacija softvera\\Projekat\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj": {}
+    "C:\\Users\\user\\Desktop\\kontroleri\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\ETF materijali\\Verifikacija i validacija softvera\\Projekat\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj": {
+    "C:\\Users\\user\\Desktop\\kontroleri\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\ETF materijali\\Verifikacija i validacija softvera\\Projekat\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\kontroleri\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
         "projectName": "VVS-projekat",
-        "projectPath": "C:\\Users\\user\\Desktop\\ETF materijali\\Verifikacija i validacija softvera\\Projekat\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\kontroleri\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\ETF materijali\\Verifikacija i validacija softvera\\Projekat\\VVS-projekat\\VVS-projekat\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\kontroleri\\VVS-projekat\\VVS-projekat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,9 +56,17 @@
               "target": "Package",
               "version": "[5.0.17, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[5.0.17, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
