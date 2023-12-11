@@ -14,8 +14,8 @@ namespace VVS_projekat.Models
 
 
 
-        [ForeignKey("LibraryUser")]
-        public int LibraryMemberFk { set; get; }
+        [ForeignKey("LibraryMember")]
+        public int? LibraryMemberFk { set; get; }
         public LibraryMember LibraryMember { set; get; }
 
 
