@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+8XxVEpFP7qKcsuIZvm75+958KPcUsfa3ksWIgrIaNRv2mMR5vxDEJzgTmZZeCb5ET9RpJgwPwh5O/IycGiJJA==",
+  "dgSpecHash": "wyte/R3uhMh9rs8Zmcz+DyDX7V7n1dDeoQ22vN/JyFnJeM1ULe+Ji9KHJKLN7x5x7nAjnE+flIHHFqho4s0Qzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\kontroleri\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\ETF materijali\\Verifikacija i validacija softvera\\Projekat\\projekat\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.17\\microsoft.aspnetcore.cryptography.internal.5.0.17.nupkg.sha512",

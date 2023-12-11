@@ -17,7 +17,7 @@ namespace VVS_projekat.Data
         public DbSet<Book> Book { get; set; }
         public DbSet<Librarian> Librarian { get; set; }
         public DbSet<LibraryMember> LibraryMember { get; set; }
-        public DbSet<LibraryUser> LibraryUser { get; set; }
+       // public DbSet<LibraryUser> LibraryUser { get; set; }
         public DbSet<MembershipPayment> MembershipPayment { get; set; }
         public DbSet<Publisher> Publisher { get; set; }
         public DbSet<Rating> Rating { get; set; }
@@ -30,7 +30,7 @@ namespace VVS_projekat.Data
             modelBuilder.Entity<Book>().ToTable("Book");
             modelBuilder.Entity<Librarian>().ToTable("Librarian");
             modelBuilder.Entity<LibraryMember>().ToTable("LibraryMember");
-            modelBuilder.Entity<LibraryUser>().ToTable("LibraryUser");
+            //modelBuilder.Entity<LibraryUser>().ToTable("LibraryUser");
             modelBuilder.Entity<MembershipPayment>().ToTable("MembershipPayment");
             modelBuilder.Entity<Publisher>().ToTable("Publisher");
             modelBuilder.Entity<Rating>().ToTable("Rating");

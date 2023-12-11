@@ -8182,11 +8182,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\kontroleri\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\ETF materijali\\Verifikacija i validacija softvera\\Projekat\\projekat\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
       "projectName": "VVS-projekat",
-      "projectPath": "C:\\Users\\user\\Desktop\\kontroleri\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\ETF materijali\\Verifikacija i validacija softvera\\Projekat\\projekat\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\kontroleri\\VVS-projekat\\VVS-projekat\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\ETF materijali\\Verifikacija i validacija softvera\\Projekat\\projekat\\VVS-projekat\\VVS-projekat\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

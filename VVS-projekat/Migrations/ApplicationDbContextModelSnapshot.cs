@@ -235,10 +235,10 @@ namespace VVS_projekat.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("PublisherFk")
+                    b.Property<int?>("PublisherFk")
                         .HasColumnType("int");
 
-                    b.Property<int>("ReservationFk")
+                    b.Property<int?>("ReservationFk")
                         .HasColumnType("int");
 
                     b.Property<string>("Status")
@@ -256,6 +256,69 @@ namespace VVS_projekat.Migrations
                     b.ToTable("Book");
                 });
 
+            modelBuilder.Entity("VVS_projekat.Models.Librarian", b =>
+                {
+                    b.Property<int>("LibrarianId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("EmailAddress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirstName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LibrarianPhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LibraryUserPassword")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LibraryUsername")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Salary")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("LibrarianId");
+
+                    b.ToTable("Librarian");
+                });
+
+            modelBuilder.Entity("VVS_projekat.Models.LibraryMember", b =>
+                {
+                    b.Property<int>("LibraryMemberId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("EmailAddress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirstName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LibraryUserPassword")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LibraryUsername")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("MembershipExpirationDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("LibraryMemberId");
+
+                    b.ToTable("LibraryMember");
+                });
+
             modelBuilder.Entity("VVS_projekat.Models.MembershipPayment", b =>
                 {
                     b.Property<int>("MembershipPaymentId")
@@ -269,18 +332,15 @@ namespace VVS_projekat.Migrations
                     b.Property<decimal>("Discount")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("LibraryMemberFk")
+                    b.Property<int?>("LibraryMemberFk")
                         .HasColumnType("int");
-
-                    b.Property<string>("LibraryMemberId")
-                        .HasColumnType("nvarchar(450)");
 
                     b.Property<DateTime>("PaymentDate")
                         .HasColumnType("datetime2");
 
                     b.HasKey("MembershipPaymentId");
 
-                    b.HasIndex("LibraryMemberId");
+                    b.HasIndex("LibraryMemberFk");
 
                     b.ToTable("MembershipPayment");
                 });
@@ -313,17 +373,14 @@ namespace VVS_projekat.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("BookFk")
+                    b.Property<int?>("BookFk")
                         .HasColumnType("int");
 
                     b.Property<string>("Comment")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("LibraryMemberFk")
+                    b.Property<int?>("LibraryMemberFk")
                         .HasColumnType("int");
-
-                    b.Property<string>("LibraryMemberId")
-                        .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("RatingValue")
                         .HasColumnType("int");
@@ -332,7 +389,7 @@ namespace VVS_projekat.Migrations
 
                     b.HasIndex("BookFk");
 
-                    b.HasIndex("LibraryMemberId");
+                    b.HasIndex("LibraryMemberFk");
 
                     b.ToTable("Rating");
                 });
@@ -347,11 +404,8 @@ namespace VVS_projekat.Migrations
                     b.Property<DateTime>("IssuedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("LibraryMemberFk")
+                    b.Property<int?>("LibraryMemberFk")
                         .HasColumnType("int");
-
-                    b.Property<string>("LibraryMemberId")
-                        .HasColumnType("nvarchar(450)");
 
                     b.Property<DateTime>("ReturnDate")
                         .HasColumnType("datetime2");
@@ -361,7 +415,7 @@ namespace VVS_projekat.Migrations
 
                     b.HasKey("ReservationId");
 
-                    b.HasIndex("LibraryMemberId");
+                    b.HasIndex("LibraryMemberFk");
 
                     b.ToTable("Reservation");
                 });
@@ -380,61 +434,6 @@ namespace VVS_projekat.Migrations
                     b.HasKey("PaymentId");
 
                     b.ToTable("ReservationPayment");
-                });
-
-            modelBuilder.Entity("VVS_projekat.Models.LibraryUser", b =>
-                {
-                    b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
-
-                    b.Property<string>("EmailAddress")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("FirstName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("LastName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("LibraryUserPassword")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("LibraryUsername")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.ToTable("LibraryUser");
-                });
-
-            modelBuilder.Entity("VVS_projekat.Models.Librarian", b =>
-                {
-                    b.HasBaseType("VVS_projekat.Models.LibraryUser");
-
-                    b.Property<string>("LibrarianPhoneNumber")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("LibraryUserId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<decimal>("Salary")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasIndex("LibraryUserId");
-
-                    b.ToTable("Librarian");
-                });
-
-            modelBuilder.Entity("VVS_projekat.Models.LibraryMember", b =>
-                {
-                    b.HasBaseType("VVS_projekat.Models.LibraryUser");
-
-                    b.Property<string>("LibraryUserId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<DateTime>("MembershipExpirationDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasIndex("LibraryUserId");
-
-                    b.ToTable("LibraryMember");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -492,15 +491,11 @@ namespace VVS_projekat.Migrations
                 {
                     b.HasOne("VVS_projekat.Models.Publisher", "Publisher")
                         .WithMany()
-                        .HasForeignKey("PublisherFk")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("PublisherFk");
 
                     b.HasOne("VVS_projekat.Models.Reservation", "Reservation")
                         .WithMany()
-                        .HasForeignKey("ReservationFk")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ReservationFk");
 
                     b.Navigation("Publisher");
 
@@ -511,7 +506,7 @@ namespace VVS_projekat.Migrations
                 {
                     b.HasOne("VVS_projekat.Models.LibraryMember", "LibraryMember")
                         .WithMany()
-                        .HasForeignKey("LibraryMemberId");
+                        .HasForeignKey("LibraryMemberFk");
 
                     b.Navigation("LibraryMember");
                 });
@@ -520,13 +515,11 @@ namespace VVS_projekat.Migrations
                 {
                     b.HasOne("VVS_projekat.Models.Book", "Book")
                         .WithMany()
-                        .HasForeignKey("BookFk")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("BookFk");
 
                     b.HasOne("VVS_projekat.Models.LibraryMember", "LibraryMember")
                         .WithMany()
-                        .HasForeignKey("LibraryMemberId");
+                        .HasForeignKey("LibraryMemberFk");
 
                     b.Navigation("Book");
 
@@ -537,7 +530,7 @@ namespace VVS_projekat.Migrations
                 {
                     b.HasOne("VVS_projekat.Models.LibraryMember", "LibraryMember")
                         .WithMany()
-                        .HasForeignKey("LibraryMemberId");
+                        .HasForeignKey("LibraryMemberFk");
 
                     b.Navigation("LibraryMember");
                 });
@@ -551,45 +544,6 @@ namespace VVS_projekat.Migrations
                         .IsRequired();
 
                     b.Navigation("Reservation");
-                });
-
-            modelBuilder.Entity("VVS_projekat.Models.LibraryUser", b =>
-                {
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
-                        .WithOne()
-                        .HasForeignKey("VVS_projekat.Models.LibraryUser", "Id")
-                        .OnDelete(DeleteBehavior.ClientCascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("VVS_projekat.Models.Librarian", b =>
-                {
-                    b.HasOne("VVS_projekat.Models.LibraryUser", null)
-                        .WithOne()
-                        .HasForeignKey("VVS_projekat.Models.Librarian", "Id")
-                        .OnDelete(DeleteBehavior.ClientCascade)
-                        .IsRequired();
-
-                    b.HasOne("VVS_projekat.Models.LibraryUser", "LibraryUser")
-                        .WithMany()
-                        .HasForeignKey("LibraryUserId");
-
-                    b.Navigation("LibraryUser");
-                });
-
-            modelBuilder.Entity("VVS_projekat.Models.LibraryMember", b =>
-                {
-                    b.HasOne("VVS_projekat.Models.LibraryUser", null)
-                        .WithOne()
-                        .HasForeignKey("VVS_projekat.Models.LibraryMember", "Id")
-                        .OnDelete(DeleteBehavior.ClientCascade)
-                        .IsRequired();
-
-                    b.HasOne("VVS_projekat.Models.LibraryUser", "LibraryUser")
-                        .WithMany()
-                        .HasForeignKey("LibraryUserId");
-
-                    b.Navigation("LibraryUser");
                 });
 #pragma warning restore 612, 618
         }
