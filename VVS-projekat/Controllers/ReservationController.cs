@@ -149,5 +149,40 @@ namespace VVS_projekat.Controllers
         {
             return _context.Reservation.Any(e => e.ReservationId == id);
         }
+
+        // CountReservation
+        // GET: Reservation/CountReservation
+        // Counts the total number of reservations in the library.
+        [HttpGet]
+        [Route("CountReservation")]
+        public async Task<CountReservationResult> CountReservation()
+        {
+            int reservationNumber = await _context.Reservation.CountAsync();
+            var result = new CountReservationResult
+            {
+                numberOfReservations = reservationNumber
+            };
+            return result;
+        }
+
+        // GET: Reservation/LateActivatedReservations
+        // Displays reservations that were activated after the reservation date.
+        [HttpGet]
+        [Route("LateActivatedReservations")]
+        public async Task<LateActivatedResult> LateActivatedReservations()
+        {
+            var lateActivatedReservations = await _context.Reservation
+                .Where(r => r.Status == "Activated" && r.IssuedDate < r.ReturnDate)
+                .ToListAsync();
+
+            var result = new LateActivatedResult
+            {
+                LateActivatedReservations = lateActivatedReservations
+            };
+
+            return result;
+        }
+
+
     }
 }

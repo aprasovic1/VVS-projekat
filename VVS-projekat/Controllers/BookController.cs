@@ -162,5 +162,39 @@ namespace VVS_projekat.Controllers
         {
             return _context.Book.Any(e => e.BookId == id);
         }
+
+        // GET: Reservation/MostReservedBookTitle
+        // Displays the title of the book that has been most reserved in the reservation list
+        // within a specified time frame.
+        [HttpGet]
+        [Route("MostReservedBook")]
+        public async Task<MostReservedBookResult> MostReservedBookTitle(DateTime startDate, DateTime endDate)
+        {
+            var mostReservedBook = await _context.Reservation
+                .Where(r => r.IssuedDate >= startDate && r.IssuedDate <= endDate && r.Status == "Book")
+                .GroupBy(r => r.LibraryMemberFk)
+                .OrderByDescending(g => g.Count())
+                .FirstOrDefaultAsync();
+
+            var result = new MostReservedBookResult();
+
+            if (mostReservedBook != null)
+            {
+                var bookTitle = await _context.Book
+                    .Where(b => b.Reservation.LibraryMemberFk == mostReservedBook.Key)
+                    .Select(b => b.Title)
+                    .FirstOrDefaultAsync();
+
+                result.MostReservedBookTitle = bookTitle;
+                result.ReservationCount = mostReservedBook.Count();
+            }
+            else
+            {
+                result.MostReservedBookTitle = "No reservations found in the specified date range.";
+                result.ReservationCount = 0;
+            }
+
+            return result;
+        }
     }
 }
