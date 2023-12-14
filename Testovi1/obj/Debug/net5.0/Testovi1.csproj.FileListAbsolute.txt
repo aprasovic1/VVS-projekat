@@ -247,3 +247,5 @@ C:\Users\Asmir\source\repos\VVS-projekat\Testovi1\obj\Debug\net5.0\refint\Testov
 C:\Users\Asmir\source\repos\VVS-projekat\Testovi1\obj\Debug\net5.0\Testovi1.pdb
 C:\Users\Asmir\source\repos\VVS-projekat\Testovi1\obj\Debug\net5.0\Testovi1.genruntimeconfig.cache
 C:\Users\Asmir\source\repos\VVS-projekat\Testovi1\obj\Debug\net5.0\ref\Testovi1.dll
+C:\Users\Asmir\source\repos\VVS-projekat\Testovi1\bin\Debug\net5.0\EntityFrameworkCoreMock.Moq.dll
+C:\Users\Asmir\source\repos\VVS-projekat\Testovi1\bin\Debug\net5.0\EntityFrameworkCoreMock.Shared.dll

@@ -830,3 +830,7 @@ C:\Users\Asmir\Source\Repos\VVS-projekat\VVS-projekat\obj\Debug\net5.0\Razor\Vie
 C:\Users\Asmir\Source\Repos\VVS-projekat\VVS-projekat\obj\Debug\net5.0\Razor\Views\Recommendations\Details.cshtml.g.cs
 C:\Users\Asmir\Source\Repos\VVS-projekat\VVS-projekat\obj\Debug\net5.0\Razor\Views\Recommendations\Edit.cshtml.g.cs
 C:\Users\Asmir\Source\Repos\VVS-projekat\VVS-projekat\obj\Debug\net5.0\Razor\Views\Recommendations\Index.cshtml.g.cs
+C:\Users\Asmir\source\repos\VVS-projekat\VVS-projekat\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\Asmir\source\repos\VVS-projekat\VVS-projekat\bin\Debug\net5.0\EntityFrameworkCoreMock.Moq.dll
+C:\Users\Asmir\source\repos\VVS-projekat\VVS-projekat\bin\Debug\net5.0\EntityFrameworkCoreMock.Shared.dll
+C:\Users\Asmir\source\repos\VVS-projekat\VVS-projekat\bin\Debug\net5.0\Moq.dll

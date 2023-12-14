@@ -14,6 +14,7 @@ namespace VVS_projekat.Controllers
     {
         private readonly ApplicationDbContext _context;
 
+
         public RecommendationsController(ApplicationDbContext context)
         {
             _context = context;
