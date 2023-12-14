@@ -25,27 +25,25 @@ namespace VVS_projekat.Controllers
         {
             var allBooks = await GetAllBooksAsync();
 
-           
-
             var books = GetBestBooks(allBooks);
 
             // Return the top 30% books as recommendations
             return View(books);
         }
 
-        private async Task<List<Book>> GetAllBooksAsync()
+        public async Task<List<Book>> GetAllBooksAsync()
         {
             return await _context.Book.ToListAsync();
         }
 
-        private List<BookWithAverageRating> CalculateAverageRatings(List<Book> books)
+        public List<BookWithAverageRating> CalculateAverageRatings(List<Book> books)
         {
             var booksWithAverageRatings = new List<BookWithAverageRating>();
 
             foreach (var book in books)
             {
                 var ratings = _context.Rating.Include(r => r.Book);
-                var avgRating = ratings.Average(r => r.RatingValue);
+                double avgRating = ratings.Average(r => r.RatingValue);
                 
                 booksWithAverageRatings.Add(new BookWithAverageRating
                 {

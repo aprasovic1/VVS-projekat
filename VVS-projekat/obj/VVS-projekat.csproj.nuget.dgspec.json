@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asmir\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj": {}
+    "C:\\Users\\Asmir\\source\\repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asmir\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj": {
+    "C:\\Users\\Asmir\\source\\repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asmir\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
+        "projectUniqueName": "C:\\Users\\Asmir\\source\\repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
         "projectName": "VVS-projekat",
-        "projectPath": "C:\\Users\\Asmir\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
+        "projectPath": "C:\\Users\\Asmir\\source\\repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
         "packagesPath": "C:\\Users\\Asmir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asmir\\Source\\Repos\\VVS-projekat\\VVS-projekat\\obj\\",
+        "outputPath": "C:\\Users\\Asmir\\source\\repos\\VVS-projekat\\VVS-projekat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asmir\\AppData\\Roaming\\NuGet\\NuGet.Config",

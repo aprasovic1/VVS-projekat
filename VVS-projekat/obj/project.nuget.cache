@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h6uP+59Z2l7CiCNBu/LmbK8kPeL9ie5Ghatx6WWXWT1psBpalTA+ccER+1H8+tEdtkaYxBl6U7igQa7+Z+VjVA==",
+  "dgSpecHash": "+lUmfYtB+5sJn3qtiigfJXZXHYfdvlSV6/V47KVWA3h6HSALuqks8MI5wk4Pe2dnD62cVy9SpjmRrVwPIw79Dw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asmir\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
+  "projectFilePath": "C:\\Users\\Asmir\\source\\repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asmir\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Asmir\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.17\\microsoft.aspnetcore.cryptography.internal.5.0.17.nupkg.sha512",
