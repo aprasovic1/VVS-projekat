@@ -26,6 +26,11 @@ namespace VVS_projekat.Controllers
             return View(await applicationDbContext.ToListAsync());
         }
 
+        protected async Task<List<Book>> GetAllBooksAsync()
+        {
+            return await _context.Book.ToListAsync();
+        }
+
         // GET: Book/Details/5
         public async Task<IActionResult> Details(int? id)
         {

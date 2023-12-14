@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\ETF materijali\\Verifikacija i validacija softvera\\Projekat\\projekat\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj": {}
+    "C:\\Users\\Asmir\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\ETF materijali\\Verifikacija i validacija softvera\\Projekat\\projekat\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj": {
+    "C:\\Users\\Asmir\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\ETF materijali\\Verifikacija i validacija softvera\\Projekat\\projekat\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
+        "projectUniqueName": "C:\\Users\\Asmir\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
         "projectName": "VVS-projekat",
-        "projectPath": "C:\\Users\\user\\Desktop\\ETF materijali\\Verifikacija i validacija softvera\\Projekat\\projekat\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\ETF materijali\\Verifikacija i validacija softvera\\Projekat\\projekat\\VVS-projekat\\VVS-projekat\\obj\\",
+        "projectPath": "C:\\Users\\Asmir\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
+        "packagesPath": "C:\\Users\\Asmir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asmir\\Source\\Repos\\VVS-projekat\\VVS-projekat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asmir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
