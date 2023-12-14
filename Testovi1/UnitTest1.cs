@@ -55,7 +55,11 @@ namespace Testovi1
         public void CalculateAverageRatings_ReturnsCorrectAverage()
         {
 
-            var mockBook = new Book { BookId = 1, Title = "Book 1", Author = "Author 1", Genre = "Genre 1" };
+            var mockBooks = new List<Book>
+            {
+                new Book { BookId = 1, Title = "Book 1", Author = "Author 1", Genre = "Genre 1",Price=10,Status="Available" },
+                new Book { BookId = 2, Title = "Book 2", Author = "Author 2", Genre = "Genre 2" ,Price=15,Status="Available"}
+            };
 
             var mockRatings = new List<Rating>
             {
@@ -64,14 +68,7 @@ namespace Testovi1
             };
 
 
-
-            var booksWithAverageRating = new List<RecommendationsController.BookWithAverageRating>
-            {
-                new RecommendationsController.BookWithAverageRating { Book = mockBook }
-            };
-
-
-            var result = recommendationsController.CalculateAverageRatings(new List<Book> { mockBook });
+            var result = recommendationsController.CalculateAverageRatings(mockBooks);
 
 
             Assert.AreEqual(4.5, result.First().AverageRating);
