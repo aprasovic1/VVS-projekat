@@ -41,9 +41,9 @@ namespace VVS_projekat.Controllers
         }
 
         //Vraća listu najboljih knjiga u sistemu
-        private List<Book> GetBestBooks(List<Book> allBooks)
+        public List<Book> GetBestBooks(List<Book> allBooks)
         {
-            if(allBooks.Count == 0) throw new ArgumentException(nameof(allBooks));
+            if(allBooks.Count == 0) throw new ArgumentException("Prazna lista knjiga");
 
             // Izračunaj prosjek ratinga za svaku knjigu
             var booksWithAverageRatings = CalculateAverageRatings(allBooks);
