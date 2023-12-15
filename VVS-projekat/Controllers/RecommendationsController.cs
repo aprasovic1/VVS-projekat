@@ -21,14 +21,17 @@ namespace VVS_projekat.Controllers
         }
 
         // GET: Recommendations
-
         public async Task<IActionResult> Index()
         {
             var allBooks = await GetAllBooksAsync();
+            var books=new List<Book>();
+            try {
+                books = GetBestBooks(allBooks); 
+            }catch (Exception ex) {
+                //Ako nema knjiga u sistemu napiši na ekran
+                ViewBag.EmptyList = "Nema knjiga u sistemu!";
+            }
 
-            var books = GetBestBooks(allBooks);
-
-            // Return the top 30% books as recommendations
             return View(books);
         }
 
@@ -37,6 +40,27 @@ namespace VVS_projekat.Controllers
             return await _context.Book.ToListAsync();
         }
 
+        //Vraća listu najboljih knjiga u sistemu
+        private List<Book> GetBestBooks(List<Book> allBooks)
+        {
+            if(allBooks.Count == 0) throw new ArgumentException(nameof(allBooks));
+
+            // Izračunaj prosjek ratinga za svaku knjigu
+            var booksWithAverageRatings = CalculateAverageRatings(allBooks);
+
+            // Sortiraj knjige po prosječnom ratingu
+            var sortedBooks = booksWithAverageRatings.OrderByDescending(b => b.AverageRating)
+                    .ToList();
+
+
+            // Izdvoji najbolje knjige
+            var topCount = (int)(sortedBooks.Count * 0.3);
+            var topBooks = sortedBooks.Take(topCount).ToList();
+
+            return GetBooksFromBooksWithRating(topBooks);
+        }
+
+        //Računa prosjeke ratinga za sve knjige i vraća listu objekata BookWithAverageRating
         public List<BookWithAverageRating> CalculateAverageRatings(List<Book> books)
         {
             var booksWithAverageRatings = new List<BookWithAverageRating>();
@@ -57,23 +81,8 @@ namespace VVS_projekat.Controllers
             return booksWithAverageRatings;
         }
 
-        private List<Book> GetBestBooks(List<Book> allBooks)
-        {
-            // Step 1: Calculate Average Ratings for Each Book
-            var booksWithAverageRatings = CalculateAverageRatings(allBooks);
 
-            // Step 2: Sort Books by Average Rating
-            var sortedBooks = booksWithAverageRatings.OrderByDescending(b => b.AverageRating)
-                    .ToList();
-
-
-            // Step 3: Select the Top 30%
-            var topCount = (int)(sortedBooks.Count * 0.3);
-            var topBooks = sortedBooks.Take(topCount).ToList();
-
-            return GetBooksFromBooksWithRating(topBooks);
-        }
-
+        //Pretvara listu objekata tipa BookWithAverageRating u listu Knjiga
         private List<Book> GetBooksFromBooksWithRating(List<BookWithAverageRating> booksWithRating)
         {
             var books = new List<Book>();
@@ -87,12 +96,12 @@ namespace VVS_projekat.Controllers
 
  
     
-
+        //Objekat koji sadrži knjige, i odgovarajući prosječan rating za svaku
     public class BookWithAverageRating
     {
         public Book Book { get; set; }
         public double AverageRating { get; set; }
-        public string? Comment { get; set; }
+     
 
         }
 
