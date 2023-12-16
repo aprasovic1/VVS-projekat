@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VVS-projekat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ad6f969a5ed937ed5fdb4330359ca1f72a76385")]
 [assembly: System.Reflection.AssemblyProductAttribute("VVS-projekat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VVS-projekat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

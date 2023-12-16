@@ -29,7 +29,7 @@ namespace VVS_projekat.Controllers
         // GET: ReservationPayment/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null)
+            if (id == null || _context.ReservationPayment == null)
             {
                 return NotFound();
             }
@@ -57,7 +57,7 @@ namespace VVS_projekat.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("PaymentId,PaymentDate,Amount")] ReservationPayment reservationPayment)
+        public async Task<IActionResult> Create([Bind("PaymentId,PaymentDate,Amount,VoucherCode")] ReservationPayment reservationPayment)
         {
             if (ModelState.IsValid)
             {
@@ -72,7 +72,7 @@ namespace VVS_projekat.Controllers
         // GET: ReservationPayment/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null)
+            if (id == null || _context.ReservationPayment == null)
             {
                 return NotFound();
             }
@@ -91,7 +91,7 @@ namespace VVS_projekat.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("PaymentId,PaymentDate,Amount")] ReservationPayment reservationPayment)
+        public async Task<IActionResult> Edit(int id, [Bind("PaymentId,PaymentDate,Amount,VoucherCode")] ReservationPayment reservationPayment)
         {
             if (id != reservationPayment.PaymentId)
             {
@@ -125,7 +125,7 @@ namespace VVS_projekat.Controllers
         // GET: ReservationPayment/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null)
+            if (id == null || _context.ReservationPayment == null)
             {
                 return NotFound();
             }
@@ -146,15 +146,23 @@ namespace VVS_projekat.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            if (_context.ReservationPayment == null)
+            {
+                return Problem("Entity set 'ApplicationDbContext.ReservationPayment'  is null.");
+            }
             var reservationPayment = await _context.ReservationPayment.FindAsync(id);
-            _context.ReservationPayment.Remove(reservationPayment);
+            if (reservationPayment != null)
+            {
+                _context.ReservationPayment.Remove(reservationPayment);
+            }
+            
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool ReservationPaymentExists(int id)
         {
-            return _context.ReservationPayment.Any(e => e.PaymentId == id);
+          return _context.ReservationPayment.Any(e => e.PaymentId == id);
         }
     }
 }

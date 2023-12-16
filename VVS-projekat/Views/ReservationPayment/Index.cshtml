@@ -19,6 +19,9 @@
                 @Html.DisplayNameFor(model => model.Amount)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.VoucherCode)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Reservation)
             </th>
             <th></th>
@@ -32,6 +35,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Amount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VoucherCode)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Reservation.ReservationId)
