@@ -20,7 +20,6 @@ namespace VVS_projekat.Controllers
             _context = context;
         }
 
-        // GET: Recommendations
         public async Task<IActionResult> Index()
         {
             var allBooks = await GetAllBooksAsync();
@@ -31,7 +30,6 @@ namespace VVS_projekat.Controllers
             }
             catch (ArgumentException ex)
             {
-                //Ako nema knjiga u sistemu napiši na ekran
                 ViewBag.EmptyList = "Nema knjiga u sistemu!";
             }
 
@@ -43,27 +41,29 @@ namespace VVS_projekat.Controllers
             return await _context.Book.ToListAsync();
         }
 
-        //Vraća listu najboljih knjiga u sistemu
         public List<Book> GetBestBooks(List<Book> allBooks)
         {
             if (allBooks.Count == 0) throw new ArgumentNullException("Prazna lista knjiga");
 
-            // Izračunaj prosjek ratinga za svaku knjigu
             var booksWithAverageRatings = CalculateAverageRatings(allBooks);
 
-            // Sortiraj knjige po prosječnom ratingu
             var sortedBooks = booksWithAverageRatings.OrderByDescending(b => b.AverageRating)
                     .ToList();
 
 
-            // Izdvoji najbolje knjige
-            var topCount = (int)(sortedBooks.Count * 0.3);
+            var topCount = (int)(sortedBooks.Count);
             var topBooks = sortedBooks.Take(topCount).ToList();
 
-            return GetBooksFromBooksWithRating(topBooks);
+            var books = new List<Book>();
+            foreach (var bookWithRating in topBooks)
+            {
+                books.Add(bookWithRating.Book);
+
+            }
+
+            return books;
         }
 
-        //Računa prosjeke ratinga za sve knjige i vraća listu objekata BookWithAverageRating
         public List<BookWithAverageRating> CalculateAverageRatings(List<Book> books)
         {
             var booksWithAverageRatings = new List<BookWithAverageRating>();
@@ -82,19 +82,6 @@ namespace VVS_projekat.Controllers
             }
 
             return booksWithAverageRatings;
-        }
-
-
-        //Pretvara listu objekata tipa BookWithAverageRating u listu Knjiga
-        private List<Book> GetBooksFromBooksWithRating(List<BookWithAverageRating> booksWithRating)
-        {
-            var books = new List<Book>();
-            foreach (var bookWithRating in booksWithRating)
-            {
-                books.Add(bookWithRating.Book);
-
-            }
-            return books;
         }
 
 
