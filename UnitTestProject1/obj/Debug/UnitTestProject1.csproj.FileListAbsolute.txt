@@ -13,3 +13,18 @@ C:\Users\DT User\Source\Repos\VVS-projekat\UnitTestProject1\obj\Debug\UnitTestPr
 C:\Users\DT User\Source\Repos\VVS-projekat\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CopyComplete
 C:\Users\DT User\Source\Repos\VVS-projekat\UnitTestProject1\obj\Debug\UnitTestProject1.dll
 C:\Users\DT User\Source\Repos\VVS-projekat\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+C:\Users\user\Desktop\VVS-projekat\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\user\Desktop\VVS-projekat\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\user\Desktop\VVS-projekat\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\user\Desktop\VVS-projekat\UnitTestProject1\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\user\Desktop\VVS-projekat\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\user\Desktop\VVS-projekat\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\user\Desktop\VVS-projekat\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\user\Desktop\VVS-projekat\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\user\Desktop\VVS-projekat\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\user\Desktop\VVS-projekat\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\user\Desktop\VVS-projekat\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\VVS-projekat\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\VVS-projekat\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CopyComplete
+C:\Users\user\Desktop\VVS-projekat\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\user\Desktop\VVS-projekat\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

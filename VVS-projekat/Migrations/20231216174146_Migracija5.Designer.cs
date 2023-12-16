@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using VVS_projekat.Data;
 
@@ -11,9 +12,10 @@ using VVS_projekat.Data;
 namespace VVS_projekat.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231216174146_Migracija5")]
+    partial class Migracija5
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -262,28 +264,6 @@ namespace VVS_projekat.Migrations
                     b.ToTable("Book", (string)null);
                 });
 
-            modelBuilder.Entity("VVS_projekat.Models.Card", b =>
-                {
-                    b.Property<int>("CardID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CardID"), 1L, 1);
-
-                    b.Property<int>("CardAmount")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("CardExpirationDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("CardNumber")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("CardID");
-
-                    b.ToTable("Card", (string)null);
-                });
-
             modelBuilder.Entity("VVS_projekat.Models.Librarian", b =>
                 {
                     b.Property<int>("LibrarianId")
@@ -359,9 +339,6 @@ namespace VVS_projekat.Migrations
 
                     b.Property<decimal>("Amount")
                         .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("CardNumber")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Discount")
                         .HasColumnType("decimal(18,2)");
@@ -459,11 +436,8 @@ namespace VVS_projekat.Migrations
 
             modelBuilder.Entity("VVS_projekat.Models.ReservationPayment", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
+                    b.Property<int>("PaymentId")
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<decimal>("Amount")
                         .HasColumnType("decimal(18,2)");
@@ -471,15 +445,10 @@ namespace VVS_projekat.Migrations
                     b.Property<DateTime>("PaymentDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("PaymentId")
-                        .HasColumnType("int");
-
                     b.Property<string>("VoucherCode")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
-
-                    b.HasIndex("PaymentId");
+                    b.HasKey("PaymentId");
 
                     b.ToTable("ReservationPayment", (string)null);
                 });

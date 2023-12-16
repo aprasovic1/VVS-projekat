@@ -24,11 +24,17 @@
             @Html.DisplayFor(model => model.Amount)
         </dd>
         <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.VoucherCode)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.VoucherCode)
+        </dd>
+        <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Reservation)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Reservation.ReservationId)
-        </dd class>
+        </dd>
     </dl>
     
     <form asp-action="Delete">

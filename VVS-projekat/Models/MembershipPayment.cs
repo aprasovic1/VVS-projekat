@@ -12,6 +12,7 @@ namespace VVS_projekat.Models
         public decimal Amount { get; set; } // Amount of the payment
         public decimal Discount { get; set; } // Discount applied
 
+        public string CardNumber { get; set; }
 
 
         [ForeignKey("LibraryMember")]

@@ -6,11 +6,14 @@ namespace VVS_projekat.Models
 {
     public class ReservationPayment
     {
-        [Key, ForeignKey("Reservation")]
+        [Key]
+        public int Id { get; set; } 
+
+        [ForeignKey("Reservation")]
         public int PaymentId { get; set; } // Unique identifier for the payment
         public DateTime PaymentDate { get; set; } // Date of payment
         public decimal Amount { get; set; } // Amount of the payment
-
+        public string VoucherCode { get; set; } 
         public Reservation Reservation { get; set; }
 
         public ReservationPayment() { }
