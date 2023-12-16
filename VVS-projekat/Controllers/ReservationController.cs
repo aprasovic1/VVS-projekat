@@ -19,6 +19,20 @@ namespace VVS_projekat.Controllers
             _context = context;
         }
 
+        // GET: Book Catalog
+        public async Task<IActionResult> BookCatalog()
+        {
+            var books = await _context.Book.Include(b => b.Reservation).ToListAsync();
+            return View(books);
+        }
+
+
+        private SelectList BookSelectList()
+        {
+            return new SelectList(_context.Book, "BookId", "Title");
+        }
+
+
         // GET: Reservation
         public async Task<IActionResult> Index()
         {
@@ -46,24 +60,36 @@ namespace VVS_projekat.Controllers
         // GET: Reservation/Create
         public IActionResult Create()
         {
+            ViewBag.Books = new SelectList(_context.Book.Where(b => b.ReservationFk == null), "BookId", "Title");
             return View();
         }
 
+
         // POST: Reservation/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ReservationId,IssuedDate,ReturnDate,Status,LibraryMemberFk")] Reservation reservation)
+        public async Task<IActionResult> Create([Bind("ReservationId,IssuedDate,ReturnDate,Status,LibraryMemberFk")] Reservation reservation, int? BookId)
         {
             if (ModelState.IsValid)
             {
+                if (BookId.HasValue)
+                {
+                    var book = await _context.Book.FindAsync(BookId.Value);
+                    if (book != null && book.ReservationFk == null)
+                    {
+                        book.ReservationFk = reservation.ReservationId;
+                        _context.Update(book);
+                    }
+                }
+
                 _context.Add(reservation);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewBag.Books = _context.Book.Where(b => b.ReservationFk == null).Select(b => new { b.BookId, b.Title }).ToList();
             return View(reservation);
         }
+
 
         // GET: Reservation/Edit/5
         public async Task<IActionResult> Edit(int? id)

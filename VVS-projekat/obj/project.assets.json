@@ -11715,19 +11715,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asmir\\.nuget\\packages\\": {}
+    "C:\\Users\\DT User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asmir\\source\\repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
+      "projectUniqueName": "C:\\Users\\DT User\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
       "projectName": "VVS-projekat",
-      "projectPath": "C:\\Users\\Asmir\\source\\repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
-      "packagesPath": "C:\\Users\\Asmir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asmir\\source\\repos\\VVS-projekat\\VVS-projekat\\obj\\",
+      "projectPath": "C:\\Users\\DT User\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
+      "packagesPath": "C:\\Users\\DT User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DT User\\Source\\Repos\\VVS-projekat\\VVS-projekat\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Asmir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DT User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
