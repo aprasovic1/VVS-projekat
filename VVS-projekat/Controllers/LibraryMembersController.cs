@@ -14,20 +14,18 @@ namespace VVS_projekat.Controllers
     {
         private readonly ApplicationDbContext _context;
 
-
         public LibraryMembersController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // GET: LibraryMembers
+        // GET: LibraryMember
         public async Task<IActionResult> Index()
         {
-
             return View(await _context.LibraryMember.ToListAsync());
         }
 
-        // GET: LibraryMembers/Details/5
+        // GET: LibraryMember/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -41,17 +39,17 @@ namespace VVS_projekat.Controllers
             {
                 return NotFound();
             }
-            id = libraryMember.LibraryMemberId;
+
             return View(libraryMember);
         }
 
-        // GET: LibraryMembers/Create
+        // GET: LibraryMember/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: LibraryMembers/Create
+        // POST: LibraryMember/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -67,7 +65,7 @@ namespace VVS_projekat.Controllers
             return View(libraryMember);
         }
 
-        // GET: LibraryMembers/Edit/5
+        // GET: LibraryMember/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -83,7 +81,7 @@ namespace VVS_projekat.Controllers
             return View(libraryMember);
         }
 
-        // POST: LibraryMembers/Edit/5
+        // POST: LibraryMember/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -118,7 +116,7 @@ namespace VVS_projekat.Controllers
             return View(libraryMember);
         }
 
-        // GET: LibraryMembers/Delete/5
+        // GET: LibraryMember/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -136,7 +134,7 @@ namespace VVS_projekat.Controllers
             return View(libraryMember);
         }
 
-        // POST: LibraryMembers/Delete/5
+        // POST: LibraryMember/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

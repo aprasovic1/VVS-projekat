@@ -20,11 +20,25 @@ namespace VVS_projekat.Controllers
         }
 
         // GET: Book
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchQuery = null)
         {
-            var applicationDbContext = _context.Book.Include(b => b.Publisher).Include(b => b.Reservation);
-            return View(await applicationDbContext.ToListAsync());
+            IQueryable<Book> booksQuery = _context.Book.Include(b => b.Publisher);
+
+            if (!String.IsNullOrEmpty(searchQuery))
+            {
+                booksQuery = booksQuery.Where(book =>
+                    book.Title.Contains(searchQuery, StringComparison.OrdinalIgnoreCase) ||
+                    book.Author.Contains(searchQuery, StringComparison.OrdinalIgnoreCase) ||
+                    book.Genre.Contains(searchQuery, StringComparison.OrdinalIgnoreCase) ||
+                    book.Publisher.PublisherName.Contains(searchQuery, StringComparison.OrdinalIgnoreCase) ||
+                    book.Status.Contains(searchQuery, StringComparison.OrdinalIgnoreCase));
+            }
+
+            return View(await booksQuery.ToListAsync());
         }
+
+
+
 
         // GET: Book/Details/5
         public async Task<IActionResult> Details(int? id)
