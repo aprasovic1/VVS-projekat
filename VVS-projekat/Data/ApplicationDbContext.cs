@@ -23,6 +23,7 @@ namespace VVS_projekat.Data
         public DbSet<Rating> Rating { get; set; }
         public DbSet<Reservation> Reservation { get; set; }
         public DbSet<ReservationPayment> ReservationPayment { get; set; }
+        public DbSet<Voucher> Voucher { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -36,6 +37,7 @@ namespace VVS_projekat.Data
             modelBuilder.Entity<Rating>().ToTable("Rating");
             modelBuilder.Entity<Reservation>().ToTable("Reservation");
             modelBuilder.Entity<ReservationPayment>().ToTable("ReservationPayment");
+            modelBuilder.Entity<Voucher>().ToTable("Voucher");
             base.OnModelCreating(modelBuilder);
         }
 

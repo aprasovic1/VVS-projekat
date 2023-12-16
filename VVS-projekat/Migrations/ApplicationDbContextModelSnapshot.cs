@@ -436,6 +436,30 @@ namespace VVS_projekat.Migrations
                     b.ToTable("ReservationPayment");
                 });
 
+            modelBuilder.Entity("VVS_projekat.Models.Voucher", b =>
+                {
+                    b.Property<int>("VoucherID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("VoucherAmount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("VoucherCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("VoucherDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("VoucherDiscount")
+                        .HasColumnType("int");
+
+                    b.HasKey("VoucherID");
+
+                    b.ToTable("Voucher");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
