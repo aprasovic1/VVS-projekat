@@ -176,11 +176,10 @@ namespace VVS_projekat.Controllers
         }
         private bool ValidateVoucher(string voucherCode)
 
-        //Greška:Potrebna provjera duzine vaucera
-
         {
             int j = 0;
-            for (int  i = 0;  i < voucherCode.Length;  i++)
+            if (voucherCode.Length != 12) return false;
+            for (int  i = 0;  i < 12;  i++)
             {
                 if (i % 4 == 0)
                 {
