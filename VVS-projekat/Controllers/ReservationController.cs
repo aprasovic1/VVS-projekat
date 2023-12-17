@@ -195,6 +195,9 @@ namespace VVS_projekat.Controllers
         }
 
 
+
+        //greška u komentaru ispod. radi se o reservations a ne books
+
         // CountReservation
         // GET: Reservation/CountReservation
         // Counts the total number of books in the library.
@@ -216,12 +219,14 @@ namespace VVS_projekat.Controllers
         [Route("LateActivatedReservations")]
         public async Task<LateActivatedResult> LateActivatedReservations()
         {
+            //U liniji ispod treba dodati await kad se radi sa context-om
             var lateActivatedReservations = _context.Reservation
                 .Where(r => r.Status == "Activated" && r.IssuedDate < r.ReturnDate)
                 .ToListAsync();
 
             var result = new LateActivatedResult
             {
+                //u liniji ispod await je višak
                 LateActivatedReservations = await lateActivatedReservations
             };
 
