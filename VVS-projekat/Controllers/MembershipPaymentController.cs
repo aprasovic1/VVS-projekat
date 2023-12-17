@@ -54,14 +54,22 @@ namespace VVS_projekat.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("MembershipPaymentId,PaymentDate,Amount,Discount,LibraryMemberFk")] MembershipPayment membershipPayment)
+        public async Task<IActionResult> Create([Bind("MembershipPaymentId,Amount,Discount,CardNumber,LibraryMemberFk")] MembershipPayment membershipPayment)
         {
             if (ModelState.IsValid)
             {
+                var card = _context.Card.Where(c => c.CardNumber == membershipPayment.CardNumber).FirstOrDefault();
+                if (!CardisValid(membershipPayment.CardNumber) || !VerifyCardAmount(card, membershipPayment.Amount))
+                {
+                    return RedirectToAction(nameof(Create));
+                }
+                card.CardAmount -= (int)membershipPayment.Amount;
+                membershipPayment.PaymentDate = DateTime.Now;
                 _context.Add(membershipPayment);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["LibraryMemberFk"] = new SelectList(_context.LibraryMember, "LibraryMemberId", "LibraryMemberId", membershipPayment.LibraryMemberFk);
             return View(membershipPayment);
         }
 
@@ -149,5 +157,35 @@ namespace VVS_projekat.Controllers
         {
             return _context.MembershipPayment.Any(e => e.MembershipPaymentId == id);
         }
+                public static bool CardisValid(string number)
+        {
+            int checksum = int.Parse(number[number.Length - 1].ToString());
+            int total = 0;
+
+            for (int i = number.Length - 2; i >= 0; i--)
+            {
+                int sum = 0;
+                int digit = int.Parse(number[i].ToString());
+                if (i % 2 == 0)
+                {
+                    digit *= 2;
+                }
+
+                sum = digit / 10 + digit % 10;
+                total += sum;
+            }
+
+            return (10 - total % 10) == checksum;
+        }
+
+        private static bool VerifyCardAmount(Card card, decimal amount)
+        {
+            if (card == null || card.CardAmount < amount)
+            {
+                return false;
+            }
+            return true;
+        }
+    }
     }
 }
