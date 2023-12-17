@@ -182,8 +182,7 @@ namespace VVS_projekat.Controllers
         {
             return _context.Book.Any(e => e.BookId == id);
         }
-
-
+       
         // GET: Reservation/MostReservedBookTitle
         // Displays the title of the book that has been most reserved in the reservation list
         // within a specified time frame.

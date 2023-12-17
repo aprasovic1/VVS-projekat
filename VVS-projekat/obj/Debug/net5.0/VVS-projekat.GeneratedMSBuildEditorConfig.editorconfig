@@ -8,4 +8,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VVS_projekat
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Asmir\source\repos\VVS-projekat\VVS-projekat\
+=======
+build_property.ProjectDir = C:\Users\nermi\Source\Repos\VVS-projekat\VVS-projekat\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+>>>>>>> a53764a06aa6b3908ab61e38e07faf2a93164e85
