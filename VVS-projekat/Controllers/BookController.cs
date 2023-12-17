@@ -194,7 +194,12 @@ namespace VVS_projekat.Controllers
             var mostReservedBook = await _context.Reservation
                 .Where(r => r.IssuedDate >= startDate && r.IssuedDate <= endDate && r.Status == "Book")
                 .GroupBy(r => r.LibraryMemberFk)
-                .OrderByDescending(g => g.Count())
+                .Select(g => new
+                {
+                    LibraryMemberId = g.Key,
+                    ReservationCount = g.Count()
+                })
+                .OrderByDescending(g => g.ReservationCount)
                 .FirstOrDefaultAsync();
 
             var result = new MostReservedBookResult();
@@ -202,12 +207,12 @@ namespace VVS_projekat.Controllers
             if (mostReservedBook != null)
             {
                 var bookTitle = await _context.Book
-                    .Where(b => b.Reservation.LibraryMemberFk == mostReservedBook.Key)
+                    .Where(b => b.Reservation.LibraryMemberFk == mostReservedBook.LibraryMemberId)
                     .Select(b => b.Title)
                     .FirstOrDefaultAsync();
 
                 result.MostReservedBookTitle = bookTitle;
-                result.ReservationCount = mostReservedBook.Count();
+                result.ReservationCount = mostReservedBook.ReservationCount;
             }
             else
             {

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "FLM75xSRQe/WX1IjfhsGg0PZ4CBSGZIDvvezakuE+/5SRT7iuWHvwIMH9fVuAPzmxSW7XzNxa1PtJAn3G2IBrw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nermi\\OneDrive\\Desktop\\VVS-pravi\\ReservationTest\\ReservationTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nermi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\nermi\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\nermi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\nermi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}

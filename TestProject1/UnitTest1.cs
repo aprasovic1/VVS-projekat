@@ -1,3 +1,5 @@
+using VVS_projekat.Controllers;
+
 namespace TestProject1
 {
     [TestClass]
@@ -6,6 +8,7 @@ namespace TestProject1
         [TestMethod]
         public void TestMethod1()
         {
+            
         }
     }
 }
