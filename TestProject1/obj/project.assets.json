@@ -13037,11 +13037,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DT User\\source\\repos\\VVS-projekat\\TestProject1\\TestProject1.csproj",
+      "projectUniqueName": "C:\\Users\\DT User\\Source\\Repos\\VVS-projekat\\TestProject1\\TestProject1.csproj",
       "projectName": "TestProject1",
-      "projectPath": "C:\\Users\\DT User\\source\\repos\\VVS-projekat\\TestProject1\\TestProject1.csproj",
+      "projectPath": "C:\\Users\\DT User\\Source\\Repos\\VVS-projekat\\TestProject1\\TestProject1.csproj",
       "packagesPath": "C:\\Users\\DT User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DT User\\source\\repos\\VVS-projekat\\TestProject1\\obj\\",
+      "outputPath": "C:\\Users\\DT User\\Source\\Repos\\VVS-projekat\\TestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DT User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -13058,8 +13058,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\DT User\\source\\repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj": {
-              "projectPath": "C:\\Users\\DT User\\source\\repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj"
+            "C:\\Users\\DT User\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj": {
+              "projectPath": "C:\\Users\\DT User\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj"
             }
           }
         }

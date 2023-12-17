@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.216130493883099" branch-rate="0.0213371266002845" lines-covered="477" lines-valid="2207" branches-covered="30" branches-valid="1406" complexity="1625" version="0" timestamp="1702779210">
+<coverage line-rate="0.215970961887477" branch-rate="0.0206552706552707" lines-covered="476" lines-valid="2204" branches-covered="29" branches-valid="1404" complexity="1623" version="0" timestamp="1702834269">
   <sources>
     <source>C:\Users\DT User\</source>
   </sources>
@@ -19,7 +19,7 @@
             <line number="4" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="TestProject1.BookControllerTests" filename="C:\Users\DT User\source\repos\VVS-projekat\TestProject1\BookControllerTests.cs" line-rate="1" branch-rate="1" complexity="11">
+        <class name="TestProject1.BookControllerTests" filename="C:\Users\DT User\Source\Repos\VVS-projekat\TestProject1\BookControllerTests.cs" line-rate="1" branch-rate="1" complexity="11">
           <methods>
             <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -257,7 +257,7 @@
             <line number="165" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="TestProject1.LibraryMembersControllerTests" filename="C:\Users\DT User\source\repos\VVS-projekat\TestProject1\LibraryMembersControllerTests.cs" line-rate="1" branch-rate="1" complexity="8">
+        <class name="TestProject1.LibraryMembersControllerTests" filename="C:\Users\DT User\Source\Repos\VVS-projekat\TestProject1\LibraryMembersControllerTests.cs" line-rate="1" branch-rate="1" complexity="8">
           <methods>
             <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -427,7 +427,7 @@
             <line number="117" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="TestProject1.ReservationControllerTests" filename="C:\Users\DT User\source\repos\VVS-projekat\TestProject1\ReservationControllerTests.cs" line-rate="1" branch-rate="1" complexity="11">
+        <class name="TestProject1.ReservationControllerTests" filename="C:\Users\DT User\Source\Repos\VVS-projekat\TestProject1\ReservationControllerTests.cs" line-rate="1" branch-rate="1" complexity="11">
           <methods>
             <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -661,9 +661,9 @@
         </class>
       </classes>
     </package>
-    <package name="VVS-projekat" line-rate="0.115601023017903" branch-rate="0.0213371266002845" complexity="1594">
+    <package name="VVS-projekat" line-rate="0.115266393442623" branch-rate="0.0206552706552707" complexity="1592">
       <classes>
-        <class name="AspNetCoreGeneratedDocument.Areas_Identity_Pages__ViewStart" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Areas\Identity\Pages\_ViewStart.cshtml" line-rate="0" branch-rate="1" complexity="1">
+        <class name="AspNetCoreGeneratedDocument.Areas_Identity_Pages__ViewStart" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Areas\Identity\Pages\_ViewStart.cshtml" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -675,7 +675,7 @@
             <line number="2" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views__ViewStart" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\_ViewStart.cshtml" line-rate="0" branch-rate="1" complexity="1">
+        <class name="AspNetCoreGeneratedDocument.Views__ViewStart" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\_ViewStart.cshtml" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -687,7 +687,7 @@
             <line number="2" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Book_Create" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Book\Create.cshtml" line-rate="0" branch-rate="0" complexity="53">
+        <class name="AspNetCoreGeneratedDocument.Views_Book_Create" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Book\Create.cshtml" line-rate="0" branch-rate="0" complexity="53">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="48">
               <lines>
@@ -749,7 +749,7 @@
             <line number="60" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Book_Delete" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Book\Delete.cshtml" line-rate="0" branch-rate="0" complexity="6">
+        <class name="AspNetCoreGeneratedDocument.Views_Book_Delete" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Book\Delete.cshtml" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="4">
               <lines>
@@ -795,7 +795,7 @@
             <line number="59" hits="0" branch="true" condition-coverage="0% (0/4)" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Book_Details" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Book\Details.cshtml" line-rate="0" branch-rate="0" complexity="6">
+        <class name="AspNetCoreGeneratedDocument.Views_Book_Details" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Book\Details.cshtml" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="6">
               <lines>
@@ -837,7 +837,7 @@
             <line number="58" hits="0" branch="true" condition-coverage="0% (0/4)" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Book_Edit" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Book\Edit.cshtml" line-rate="0" branch-rate="0" complexity="59">
+        <class name="AspNetCoreGeneratedDocument.Views_Book_Edit" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Book\Edit.cshtml" line-rate="0" branch-rate="0" complexity="59">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="54">
               <lines>
@@ -905,7 +905,7 @@
             <line number="63" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Book_Index" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Book\Index.cshtml" line-rate="0" branch-rate="0" complexity="16">
+        <class name="AspNetCoreGeneratedDocument.Views_Book_Index" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Book\Index.cshtml" line-rate="0" branch-rate="0" complexity="16">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="16">
               <lines>
@@ -955,7 +955,7 @@
             <line number="69" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Card_Create" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Card\Create.cshtml" line-rate="0" branch-rate="0" complexity="25">
+        <class name="AspNetCoreGeneratedDocument.Views_Card_Create" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Card\Create.cshtml" line-rate="0" branch-rate="0" complexity="25">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="20">
               <lines>
@@ -997,7 +997,7 @@
             <line number="42" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Card_Delete" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Card\Delete.cshtml" line-rate="0" branch-rate="0" complexity="6">
+        <class name="AspNetCoreGeneratedDocument.Views_Card_Delete" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Card\Delete.cshtml" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="4">
               <lines>
@@ -1027,7 +1027,7 @@
             <line number="35" hits="0" branch="true" condition-coverage="0% (0/4)" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Card_Details" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Card\Details.cshtml" line-rate="0" branch-rate="0" complexity="6">
+        <class name="AspNetCoreGeneratedDocument.Views_Card_Details" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Card\Details.cshtml" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="6">
               <lines>
@@ -1053,7 +1053,7 @@
             <line number="34" hits="0" branch="true" condition-coverage="0% (0/4)" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Card_Edit" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Card\Edit.cshtml" line-rate="0" branch-rate="0" complexity="27">
+        <class name="AspNetCoreGeneratedDocument.Views_Card_Edit" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Card\Edit.cshtml" line-rate="0" branch-rate="0" complexity="27">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="22">
               <lines>
@@ -1097,7 +1097,7 @@
             <line number="43" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Card_Index" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Card\Index.cshtml" line-rate="0" branch-rate="0" complexity="16">
+        <class name="AspNetCoreGeneratedDocument.Views_Card_Index" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Card\Index.cshtml" line-rate="0" branch-rate="0" complexity="16">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="16">
               <lines>
@@ -1131,7 +1131,7 @@
             <line number="45" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Home_Index" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Home\Index.cshtml" line-rate="0" branch-rate="1" complexity="1">
+        <class name="AspNetCoreGeneratedDocument.Views_Home_Index" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Home\Index.cshtml" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -1143,7 +1143,7 @@
             <line number="2" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Home_Privacy" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Home\Privacy.cshtml" line-rate="0" branch-rate="1" complexity="1">
+        <class name="AspNetCoreGeneratedDocument.Views_Home_Privacy" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Home\Privacy.cshtml" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -1157,7 +1157,7 @@
             <line number="4" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Librarian_Create" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Librarian\Create.cshtml" line-rate="0" branch-rate="0" complexity="49">
+        <class name="AspNetCoreGeneratedDocument.Views_Librarian_Create" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Librarian\Create.cshtml" line-rate="0" branch-rate="0" complexity="49">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="44">
               <lines>
@@ -1223,7 +1223,7 @@
             <line number="62" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Librarian_Delete" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Librarian\Delete.cshtml" line-rate="0" branch-rate="0" complexity="6">
+        <class name="AspNetCoreGeneratedDocument.Views_Librarian_Delete" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Librarian\Delete.cshtml" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="4">
               <lines>
@@ -1269,7 +1269,7 @@
             <line number="59" hits="0" branch="true" condition-coverage="0% (0/4)" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Librarian_Details" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Librarian\Details.cshtml" line-rate="0" branch-rate="0" complexity="6">
+        <class name="AspNetCoreGeneratedDocument.Views_Librarian_Details" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Librarian\Details.cshtml" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="6">
               <lines>
@@ -1311,7 +1311,7 @@
             <line number="58" hits="0" branch="true" condition-coverage="0% (0/4)" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Librarian_Edit" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Librarian\Edit.cshtml" line-rate="0" branch-rate="0" complexity="51">
+        <class name="AspNetCoreGeneratedDocument.Views_Librarian_Edit" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Librarian\Edit.cshtml" line-rate="0" branch-rate="0" complexity="51">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="46">
               <lines>
@@ -1379,7 +1379,7 @@
             <line number="63" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Librarian_Index" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Librarian\Index.cshtml" line-rate="0" branch-rate="0" complexity="16">
+        <class name="AspNetCoreGeneratedDocument.Views_Librarian_Index" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Librarian\Index.cshtml" line-rate="0" branch-rate="0" complexity="16">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="16">
               <lines>
@@ -1429,7 +1429,7 @@
             <line number="69" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_LibraryMembers_Create" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\LibraryMembers\Create.cshtml" line-rate="0" branch-rate="0" complexity="43">
+        <class name="AspNetCoreGeneratedDocument.Views_LibraryMembers_Create" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\LibraryMembers\Create.cshtml" line-rate="0" branch-rate="0" complexity="43">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="38">
               <lines>
@@ -1489,7 +1489,7 @@
             <line number="57" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_LibraryMembers_Delete" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\LibraryMembers\Delete.cshtml" line-rate="0" branch-rate="0" complexity="6">
+        <class name="AspNetCoreGeneratedDocument.Views_LibraryMembers_Delete" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\LibraryMembers\Delete.cshtml" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="4">
               <lines>
@@ -1531,7 +1531,7 @@
             <line number="53" hits="0" branch="true" condition-coverage="0% (0/4)" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_LibraryMembers_Details" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\LibraryMembers\Details.cshtml" line-rate="0" branch-rate="0" complexity="6">
+        <class name="AspNetCoreGeneratedDocument.Views_LibraryMembers_Details" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\LibraryMembers\Details.cshtml" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="6">
               <lines>
@@ -1569,7 +1569,7 @@
             <line number="52" hits="0" branch="true" condition-coverage="0% (0/4)" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_LibraryMembers_Edit" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\LibraryMembers\Edit.cshtml" line-rate="0" branch-rate="0" complexity="45">
+        <class name="AspNetCoreGeneratedDocument.Views_LibraryMembers_Edit" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\LibraryMembers\Edit.cshtml" line-rate="0" branch-rate="0" complexity="45">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="40">
               <lines>
@@ -1631,7 +1631,7 @@
             <line number="58" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_LibraryMembers_Index" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\LibraryMembers\Index.cshtml" line-rate="0" branch-rate="0" complexity="16">
+        <class name="AspNetCoreGeneratedDocument.Views_LibraryMembers_Index" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\LibraryMembers\Index.cshtml" line-rate="0" branch-rate="0" complexity="16">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="16">
               <lines>
@@ -1677,7 +1677,7 @@
             <line number="64" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_MembershipPayment_Create" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\MembershipPayment\Create.cshtml" line-rate="0" branch-rate="0" complexity="31">
+        <class name="AspNetCoreGeneratedDocument.Views_MembershipPayment_Create" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\MembershipPayment\Create.cshtml" line-rate="0" branch-rate="0" complexity="31">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="26">
               <lines>
@@ -1725,7 +1725,7 @@
             <line number="47" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_MembershipPayment_Delete" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\MembershipPayment\Delete.cshtml" line-rate="0" branch-rate="0" complexity="6">
+        <class name="AspNetCoreGeneratedDocument.Views_MembershipPayment_Delete" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\MembershipPayment\Delete.cshtml" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="4">
               <lines>
@@ -1759,7 +1759,7 @@
             <line number="41" hits="0" branch="true" condition-coverage="0% (0/4)" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_MembershipPayment_Details" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\MembershipPayment\Details.cshtml" line-rate="0" branch-rate="0" complexity="6">
+        <class name="AspNetCoreGeneratedDocument.Views_MembershipPayment_Details" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\MembershipPayment\Details.cshtml" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="6">
               <lines>
@@ -1789,7 +1789,7 @@
             <line number="40" hits="0" branch="true" condition-coverage="0% (0/4)" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_MembershipPayment_Edit" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\MembershipPayment\Edit.cshtml" line-rate="0" branch-rate="0" complexity="33">
+        <class name="AspNetCoreGeneratedDocument.Views_MembershipPayment_Edit" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\MembershipPayment\Edit.cshtml" line-rate="0" branch-rate="0" complexity="33">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="28">
               <lines>
@@ -1839,7 +1839,7 @@
             <line number="48" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_MembershipPayment_Index" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\MembershipPayment\Index.cshtml" line-rate="0" branch-rate="0" complexity="16">
+        <class name="AspNetCoreGeneratedDocument.Views_MembershipPayment_Index" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\MembershipPayment\Index.cshtml" line-rate="0" branch-rate="0" complexity="16">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="16">
               <lines>
@@ -1877,7 +1877,7 @@
             <line number="51" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Publisher_Create" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Publisher\Create.cshtml" line-rate="0" branch-rate="0" complexity="25">
+        <class name="AspNetCoreGeneratedDocument.Views_Publisher_Create" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Publisher\Create.cshtml" line-rate="0" branch-rate="0" complexity="25">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="20">
               <lines>
@@ -1919,7 +1919,7 @@
             <line number="42" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Publisher_Delete" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Publisher\Delete.cshtml" line-rate="0" branch-rate="0" complexity="6">
+        <class name="AspNetCoreGeneratedDocument.Views_Publisher_Delete" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Publisher\Delete.cshtml" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="4">
               <lines>
@@ -1949,7 +1949,7 @@
             <line number="35" hits="0" branch="true" condition-coverage="0% (0/4)" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Publisher_Details" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Publisher\Details.cshtml" line-rate="0" branch-rate="0" complexity="6">
+        <class name="AspNetCoreGeneratedDocument.Views_Publisher_Details" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Publisher\Details.cshtml" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="6">
               <lines>
@@ -1975,7 +1975,7 @@
             <line number="34" hits="0" branch="true" condition-coverage="0% (0/4)" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Publisher_Edit" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Publisher\Edit.cshtml" line-rate="0" branch-rate="0" complexity="27">
+        <class name="AspNetCoreGeneratedDocument.Views_Publisher_Edit" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Publisher\Edit.cshtml" line-rate="0" branch-rate="0" complexity="27">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="22">
               <lines>
@@ -2019,7 +2019,7 @@
             <line number="43" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Publisher_Index" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Publisher\Index.cshtml" line-rate="0" branch-rate="0" complexity="16">
+        <class name="AspNetCoreGeneratedDocument.Views_Publisher_Index" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Publisher\Index.cshtml" line-rate="0" branch-rate="0" complexity="16">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="16">
               <lines>
@@ -2053,7 +2053,7 @@
             <line number="45" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Rating_Create" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Rating\Create.cshtml" line-rate="0" branch-rate="0" complexity="33">
+        <class name="AspNetCoreGeneratedDocument.Views_Rating_Create" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Rating\Create.cshtml" line-rate="0" branch-rate="0" complexity="33">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="28">
               <lines>
@@ -2099,7 +2099,7 @@
             <line number="46" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Rating_Delete" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Rating\Delete.cshtml" line-rate="0" branch-rate="0" complexity="6">
+        <class name="AspNetCoreGeneratedDocument.Views_Rating_Delete" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Rating\Delete.cshtml" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="4">
               <lines>
@@ -2133,7 +2133,7 @@
             <line number="41" hits="0" branch="true" condition-coverage="0% (0/4)" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Rating_Details" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Rating\Details.cshtml" line-rate="0" branch-rate="0" complexity="6">
+        <class name="AspNetCoreGeneratedDocument.Views_Rating_Details" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Rating\Details.cshtml" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="6">
               <lines>
@@ -2163,7 +2163,7 @@
             <line number="40" hits="0" branch="true" condition-coverage="0% (0/4)" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Rating_Edit" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Rating\Edit.cshtml" line-rate="0" branch-rate="0" complexity="37">
+        <class name="AspNetCoreGeneratedDocument.Views_Rating_Edit" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Rating\Edit.cshtml" line-rate="0" branch-rate="0" complexity="37">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="32">
               <lines>
@@ -2213,7 +2213,7 @@
             <line number="48" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Rating_Index" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Rating\Index.cshtml" line-rate="0" branch-rate="0" complexity="16">
+        <class name="AspNetCoreGeneratedDocument.Views_Rating_Index" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Rating\Index.cshtml" line-rate="0" branch-rate="0" complexity="16">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="16">
               <lines>
@@ -2251,7 +2251,7 @@
             <line number="51" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Recommendations_Create" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Recommendations\Create.cshtml" line-rate="0" branch-rate="0" complexity="53">
+        <class name="AspNetCoreGeneratedDocument.Views_Recommendations_Create" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Recommendations\Create.cshtml" line-rate="0" branch-rate="0" complexity="53">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="48">
               <lines>
@@ -2313,7 +2313,7 @@
             <line number="60" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Recommendations_Delete" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Recommendations\Delete.cshtml" line-rate="0" branch-rate="0" complexity="6">
+        <class name="AspNetCoreGeneratedDocument.Views_Recommendations_Delete" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Recommendations\Delete.cshtml" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="4">
               <lines>
@@ -2359,7 +2359,7 @@
             <line number="59" hits="0" branch="true" condition-coverage="0% (0/4)" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Recommendations_Details" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Recommendations\Details.cshtml" line-rate="0" branch-rate="0" complexity="6">
+        <class name="AspNetCoreGeneratedDocument.Views_Recommendations_Details" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Recommendations\Details.cshtml" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="6">
               <lines>
@@ -2401,7 +2401,7 @@
             <line number="58" hits="0" branch="true" condition-coverage="0% (0/4)" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Recommendations_Edit" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Recommendations\Edit.cshtml" line-rate="0" branch-rate="0" complexity="59">
+        <class name="AspNetCoreGeneratedDocument.Views_Recommendations_Edit" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Recommendations\Edit.cshtml" line-rate="0" branch-rate="0" complexity="59">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="54">
               <lines>
@@ -2469,7 +2469,7 @@
             <line number="63" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Recommendations_Index" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Recommendations\Index.cshtml" line-rate="0" branch-rate="0" complexity="16">
+        <class name="AspNetCoreGeneratedDocument.Views_Recommendations_Index" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Recommendations\Index.cshtml" line-rate="0" branch-rate="0" complexity="16">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="16">
               <lines>
@@ -2519,7 +2519,7 @@
             <line number="69" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Reservation_Create" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Reservation\Create.cshtml" line-rate="0" branch-rate="0" complexity="31">
+        <class name="AspNetCoreGeneratedDocument.Views_Reservation_Create" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Reservation\Create.cshtml" line-rate="0" branch-rate="0" complexity="31">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="26">
               <lines>
@@ -2567,7 +2567,7 @@
             <line number="47" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Reservation_Delete" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Reservation\Delete.cshtml" line-rate="0" branch-rate="0" complexity="6">
+        <class name="AspNetCoreGeneratedDocument.Views_Reservation_Delete" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Reservation\Delete.cshtml" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="4">
               <lines>
@@ -2601,7 +2601,7 @@
             <line number="41" hits="0" branch="true" condition-coverage="0% (0/4)" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Reservation_Details" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Reservation\Details.cshtml" line-rate="0" branch-rate="0" complexity="6">
+        <class name="AspNetCoreGeneratedDocument.Views_Reservation_Details" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Reservation\Details.cshtml" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="6">
               <lines>
@@ -2631,7 +2631,7 @@
             <line number="40" hits="0" branch="true" condition-coverage="0% (0/4)" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Reservation_Edit" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Reservation\Edit.cshtml" line-rate="0" branch-rate="0" complexity="33">
+        <class name="AspNetCoreGeneratedDocument.Views_Reservation_Edit" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Reservation\Edit.cshtml" line-rate="0" branch-rate="0" complexity="33">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="28">
               <lines>
@@ -2681,7 +2681,7 @@
             <line number="48" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Reservation_Index" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Reservation\Index.cshtml" line-rate="0" branch-rate="0" complexity="16">
+        <class name="AspNetCoreGeneratedDocument.Views_Reservation_Index" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Reservation\Index.cshtml" line-rate="0" branch-rate="0" complexity="16">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="16">
               <lines>
@@ -2719,7 +2719,7 @@
             <line number="51" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_ReservationPayment_Create" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\ReservationPayment\Create.cshtml" line-rate="0" branch-rate="0" complexity="33">
+        <class name="AspNetCoreGeneratedDocument.Views_ReservationPayment_Create" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\ReservationPayment\Create.cshtml" line-rate="0" branch-rate="0" complexity="33">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="28">
               <lines>
@@ -2765,7 +2765,7 @@
             <line number="46" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_ReservationPayment_Delete" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\ReservationPayment\Delete.cshtml" line-rate="0" branch-rate="0" complexity="6">
+        <class name="AspNetCoreGeneratedDocument.Views_ReservationPayment_Delete" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\ReservationPayment\Delete.cshtml" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="4">
               <lines>
@@ -2799,7 +2799,7 @@
             <line number="41" hits="0" branch="true" condition-coverage="0% (0/4)" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_ReservationPayment_Details" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\ReservationPayment\Details.cshtml" line-rate="0" branch-rate="0" complexity="6">
+        <class name="AspNetCoreGeneratedDocument.Views_ReservationPayment_Details" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\ReservationPayment\Details.cshtml" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="6">
               <lines>
@@ -2829,7 +2829,7 @@
             <line number="40" hits="0" branch="true" condition-coverage="0% (0/4)" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_ReservationPayment_Edit" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\ReservationPayment\Edit.cshtml" line-rate="0" branch-rate="0" complexity="27">
+        <class name="AspNetCoreGeneratedDocument.Views_ReservationPayment_Edit" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\ReservationPayment\Edit.cshtml" line-rate="0" branch-rate="0" complexity="27">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="22">
               <lines>
@@ -2873,7 +2873,7 @@
             <line number="43" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_ReservationPayment_Index" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\ReservationPayment\Index.cshtml" line-rate="0" branch-rate="0" complexity="16">
+        <class name="AspNetCoreGeneratedDocument.Views_ReservationPayment_Index" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\ReservationPayment\Index.cshtml" line-rate="0" branch-rate="0" complexity="16">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="16">
               <lines>
@@ -2911,7 +2911,7 @@
             <line number="51" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Shared__Layout" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Shared\_Layout.cshtml" line-rate="0" branch-rate="0" complexity="20">
+        <class name="AspNetCoreGeneratedDocument.Views_Shared__Layout" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Shared\_Layout.cshtml" line-rate="0" branch-rate="0" complexity="20">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="4">
               <lines>
@@ -2933,7 +2933,7 @@
             <line number="47" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Shared__LoginPartial" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Shared\_LoginPartial.cshtml" line-rate="0" branch-rate="0" complexity="13">
+        <class name="AspNetCoreGeneratedDocument.Views_Shared__LoginPartial" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Shared\_LoginPartial.cshtml" line-rate="0" branch-rate="0" complexity="13">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -2962,7 +2962,7 @@
             <line number="25" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Shared_Error" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Shared\Error.cshtml" line-rate="0" branch-rate="0" complexity="2">
+        <class name="AspNetCoreGeneratedDocument.Views_Shared_Error" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Shared\Error.cshtml" line-rate="0" branch-rate="0" complexity="2">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="2">
               <lines>
@@ -2982,7 +2982,7 @@
             <line number="14" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Voucher_Create" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Voucher\Create.cshtml" line-rate="0" branch-rate="0" complexity="31">
+        <class name="AspNetCoreGeneratedDocument.Views_Voucher_Create" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Voucher\Create.cshtml" line-rate="0" branch-rate="0" complexity="31">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="26">
               <lines>
@@ -3030,7 +3030,7 @@
             <line number="47" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Voucher_Delete" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Voucher\Delete.cshtml" line-rate="0" branch-rate="0" complexity="6">
+        <class name="AspNetCoreGeneratedDocument.Views_Voucher_Delete" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Voucher\Delete.cshtml" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="4">
               <lines>
@@ -3064,7 +3064,7 @@
             <line number="41" hits="0" branch="true" condition-coverage="0% (0/4)" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Voucher_Details" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Voucher\Details.cshtml" line-rate="0" branch-rate="0" complexity="6">
+        <class name="AspNetCoreGeneratedDocument.Views_Voucher_Details" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Voucher\Details.cshtml" line-rate="0" branch-rate="0" complexity="6">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="6">
               <lines>
@@ -3094,7 +3094,7 @@
             <line number="40" hits="0" branch="true" condition-coverage="0% (0/4)" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Voucher_Edit" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Voucher\Edit.cshtml" line-rate="0" branch-rate="0" complexity="33">
+        <class name="AspNetCoreGeneratedDocument.Views_Voucher_Edit" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Voucher\Edit.cshtml" line-rate="0" branch-rate="0" complexity="33">
           <methods>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="28">
               <lines>
@@ -3144,7 +3144,7 @@
             <line number="48" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCoreGeneratedDocument.Views_Voucher_Index" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Views\Voucher\Index.cshtml" line-rate="0" branch-rate="0" complexity="16">
+        <class name="AspNetCoreGeneratedDocument.Views_Voucher_Index" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Views\Voucher\Index.cshtml" line-rate="0" branch-rate="0" complexity="16">
           <methods>
             <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="16">
               <lines>
@@ -3182,22 +3182,22 @@
             <line number="51" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Controllers.BookController" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Controllers\BookController.cs" line-rate="0.495934959349593" branch-rate="0.375" complexity="28">
+        <class name="VVS_projekat.Controllers.BookController" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Controllers\BookController.cs" line-rate="0.495934959349593" branch-rate="0.375" complexity="28">
           <methods>
             <method name="Create" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="71" hits="1" branch="false" />
                 <line number="72" hits="1" branch="false" />
                 <line number="73" hits="1" branch="false" />
                 <line number="74" hits="1" branch="false" />
                 <line number="75" hits="1" branch="false" />
+                <line number="76" hits="1" branch="false" />
               </lines>
             </method>
             <method name="BookExists" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="182" hits="0" branch="false" />
                 <line number="183" hits="0" branch="false" />
                 <line number="184" hits="0" branch="false" />
+                <line number="185" hits="0" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
@@ -3210,43 +3210,43 @@
             </method>
             <method name="Create" signature="()" line-rate="0.7" branch-rate="0.5" complexity="2">
               <lines>
-                <line number="83" hits="1" branch="false" />
-                <line number="84" hits="1" branch="true" condition-coverage="50% (1/2)" />
-                <line number="85" hits="1" branch="false" />
+                <line number="84" hits="1" branch="false" />
+                <line number="85" hits="1" branch="true" condition-coverage="50% (1/2)" />
                 <line number="86" hits="1" branch="false" />
                 <line number="87" hits="1" branch="false" />
                 <line number="88" hits="1" branch="false" />
-                <line number="90" hits="0" branch="false" />
+                <line number="89" hits="1" branch="false" />
                 <line number="91" hits="0" branch="false" />
                 <line number="92" hits="0" branch="false" />
-                <line number="93" hits="1" branch="false" />
+                <line number="93" hits="0" branch="false" />
+                <line number="94" hits="1" branch="false" />
               </lines>
             </method>
             <method name="Delete" signature="()" line-rate="0.692307692307692" branch-rate="0.5" complexity="4">
               <lines>
-                <line number="152" hits="1" branch="false" />
-                <line number="153" hits="1" branch="true" condition-coverage="50% (1/2)" />
-                <line number="154" hits="0" branch="false" />
+                <line number="153" hits="1" branch="false" />
+                <line number="154" hits="1" branch="true" condition-coverage="50% (1/2)" />
                 <line number="155" hits="0" branch="false" />
-                <line number="158" hits="1" branch="false" />
+                <line number="156" hits="0" branch="false" />
                 <line number="159" hits="1" branch="false" />
                 <line number="160" hits="1" branch="false" />
                 <line number="161" hits="1" branch="false" />
-                <line number="162" hits="1" branch="true" condition-coverage="50% (1/2)" />
-                <line number="163" hits="0" branch="false" />
+                <line number="162" hits="1" branch="false" />
+                <line number="163" hits="1" branch="true" condition-coverage="50% (1/2)" />
                 <line number="164" hits="0" branch="false" />
-                <line number="167" hits="1" branch="false" />
+                <line number="165" hits="0" branch="false" />
                 <line number="168" hits="1" branch="false" />
+                <line number="169" hits="1" branch="false" />
               </lines>
             </method>
             <method name="DeleteConfirmed" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="174" hits="1" branch="false" />
                 <line number="175" hits="1" branch="false" />
                 <line number="176" hits="1" branch="false" />
                 <line number="177" hits="1" branch="false" />
                 <line number="178" hits="1" branch="false" />
                 <line number="179" hits="1" branch="false" />
+                <line number="180" hits="1" branch="false" />
               </lines>
             </method>
             <method name="Details" signature="()" line-rate="0.692307692307692" branch-rate="0.5" complexity="4">
@@ -3259,53 +3259,53 @@
                 <line number="58" hits="1" branch="false" />
                 <line number="59" hits="1" branch="false" />
                 <line number="60" hits="1" branch="false" />
-                <line number="61" hits="1" branch="true" condition-coverage="50% (1/2)" />
-                <line number="62" hits="0" branch="false" />
+                <line number="62" hits="1" branch="true" condition-coverage="50% (1/2)" />
                 <line number="63" hits="0" branch="false" />
-                <line number="66" hits="1" branch="false" />
+                <line number="64" hits="0" branch="false" />
                 <line number="67" hits="1" branch="false" />
+                <line number="68" hits="1" branch="false" />
               </lines>
             </method>
             <method name="Edit" signature="()" line-rate="0.666666666666667" branch-rate="0.5" complexity="4">
               <lines>
-                <line number="97" hits="1" branch="false" />
-                <line number="98" hits="1" branch="true" condition-coverage="50% (1/2)" />
-                <line number="99" hits="0" branch="false" />
+                <line number="98" hits="1" branch="false" />
+                <line number="99" hits="1" branch="true" condition-coverage="50% (1/2)" />
                 <line number="100" hits="0" branch="false" />
-                <line number="103" hits="1" branch="false" />
-                <line number="104" hits="1" branch="true" condition-coverage="50% (1/2)" />
-                <line number="105" hits="0" branch="false" />
+                <line number="101" hits="0" branch="false" />
+                <line number="104" hits="1" branch="false" />
+                <line number="105" hits="1" branch="true" condition-coverage="50% (1/2)" />
                 <line number="106" hits="0" branch="false" />
-                <line number="108" hits="1" branch="false" />
+                <line number="107" hits="0" branch="false" />
                 <line number="109" hits="1" branch="false" />
                 <line number="110" hits="1" branch="false" />
                 <line number="111" hits="1" branch="false" />
+                <line number="112" hits="1" branch="false" />
               </lines>
             </method>
             <method name="Edit" signature="()" line-rate="0" branch-rate="0" complexity="6">
               <lines>
-                <line number="119" hits="0" branch="false" />
-                <line number="120" hits="0" branch="true" condition-coverage="0% (0/2)" />
-                <line number="121" hits="0" branch="false" />
+                <line number="120" hits="0" branch="false" />
+                <line number="121" hits="0" branch="true" condition-coverage="0% (0/2)" />
                 <line number="122" hits="0" branch="false" />
-                <line number="125" hits="0" branch="true" condition-coverage="0% (0/2)" />
-                <line number="126" hits="0" branch="false" />
-                <line number="128" hits="0" branch="false" />
+                <line number="123" hits="0" branch="false" />
+                <line number="126" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="127" hits="0" branch="false" />
                 <line number="129" hits="0" branch="false" />
                 <line number="130" hits="0" branch="false" />
                 <line number="131" hits="0" branch="false" />
                 <line number="132" hits="0" branch="false" />
                 <line number="133" hits="0" branch="false" />
-                <line number="134" hits="0" branch="true" condition-coverage="0% (0/2)" />
-                <line number="135" hits="0" branch="false" />
+                <line number="134" hits="0" branch="false" />
+                <line number="135" hits="0" branch="true" condition-coverage="0% (0/2)" />
                 <line number="136" hits="0" branch="false" />
-                <line number="139" hits="0" branch="false" />
+                <line number="137" hits="0" branch="false" />
                 <line number="140" hits="0" branch="false" />
-                <line number="143" hits="0" branch="false" />
-                <line number="145" hits="0" branch="false" />
+                <line number="141" hits="0" branch="false" />
+                <line number="144" hits="0" branch="false" />
                 <line number="146" hits="0" branch="false" />
                 <line number="147" hits="0" branch="false" />
                 <line number="148" hits="0" branch="false" />
+                <line number="149" hits="0" branch="false" />
               </lines>
             </method>
             <method name="Index" signature="()" line-rate="1" branch-rate="1" complexity="2">
@@ -3327,28 +3327,28 @@
             </method>
             <method name="MostReservedBookTitle" signature="()" line-rate="0" branch-rate="0" complexity="2">
               <lines>
-                <line number="193" hits="0" branch="false" />
                 <line number="194" hits="0" branch="false" />
                 <line number="195" hits="0" branch="false" />
                 <line number="196" hits="0" branch="false" />
                 <line number="197" hits="0" branch="false" />
                 <line number="198" hits="0" branch="false" />
-                <line number="200" hits="0" branch="false" />
-                <line number="202" hits="0" branch="true" condition-coverage="0% (0/2)" />
-                <line number="203" hits="0" branch="false" />
+                <line number="199" hits="0" branch="false" />
+                <line number="201" hits="0" branch="false" />
+                <line number="203" hits="0" branch="true" condition-coverage="0% (0/2)" />
                 <line number="204" hits="0" branch="false" />
                 <line number="205" hits="0" branch="false" />
                 <line number="206" hits="0" branch="false" />
                 <line number="207" hits="0" branch="false" />
-                <line number="209" hits="0" branch="false" />
+                <line number="208" hits="0" branch="false" />
                 <line number="210" hits="0" branch="false" />
                 <line number="211" hits="0" branch="false" />
-                <line number="213" hits="0" branch="false" />
+                <line number="212" hits="0" branch="false" />
                 <line number="214" hits="0" branch="false" />
                 <line number="215" hits="0" branch="false" />
                 <line number="216" hits="0" branch="false" />
-                <line number="218" hits="0" branch="false" />
+                <line number="217" hits="0" branch="false" />
                 <line number="219" hits="0" branch="false" />
+                <line number="220" hits="0" branch="false" />
               </lines>
             </method>
           </methods>
@@ -3378,107 +3378,107 @@
             <line number="58" hits="1" branch="false" />
             <line number="59" hits="1" branch="false" />
             <line number="60" hits="1" branch="false" />
-            <line number="61" hits="1" branch="true" condition-coverage="50% (1/2)" />
-            <line number="62" hits="0" branch="false" />
+            <line number="62" hits="1" branch="true" condition-coverage="50% (1/2)" />
             <line number="63" hits="0" branch="false" />
-            <line number="66" hits="1" branch="false" />
+            <line number="64" hits="0" branch="false" />
             <line number="67" hits="1" branch="false" />
-            <line number="71" hits="1" branch="false" />
+            <line number="68" hits="1" branch="false" />
             <line number="72" hits="1" branch="false" />
             <line number="73" hits="1" branch="false" />
             <line number="74" hits="1" branch="false" />
             <line number="75" hits="1" branch="false" />
-            <line number="83" hits="1" branch="false" />
-            <line number="84" hits="1" branch="true" condition-coverage="50% (1/2)" />
-            <line number="85" hits="1" branch="false" />
+            <line number="76" hits="1" branch="false" />
+            <line number="84" hits="1" branch="false" />
+            <line number="85" hits="1" branch="true" condition-coverage="50% (1/2)" />
             <line number="86" hits="1" branch="false" />
             <line number="87" hits="1" branch="false" />
             <line number="88" hits="1" branch="false" />
-            <line number="90" hits="0" branch="false" />
+            <line number="89" hits="1" branch="false" />
             <line number="91" hits="0" branch="false" />
             <line number="92" hits="0" branch="false" />
-            <line number="93" hits="1" branch="false" />
-            <line number="97" hits="1" branch="false" />
-            <line number="98" hits="1" branch="true" condition-coverage="50% (1/2)" />
-            <line number="99" hits="0" branch="false" />
+            <line number="93" hits="0" branch="false" />
+            <line number="94" hits="1" branch="false" />
+            <line number="98" hits="1" branch="false" />
+            <line number="99" hits="1" branch="true" condition-coverage="50% (1/2)" />
             <line number="100" hits="0" branch="false" />
-            <line number="103" hits="1" branch="false" />
-            <line number="104" hits="1" branch="true" condition-coverage="50% (1/2)" />
-            <line number="105" hits="0" branch="false" />
+            <line number="101" hits="0" branch="false" />
+            <line number="104" hits="1" branch="false" />
+            <line number="105" hits="1" branch="true" condition-coverage="50% (1/2)" />
             <line number="106" hits="0" branch="false" />
-            <line number="108" hits="1" branch="false" />
+            <line number="107" hits="0" branch="false" />
             <line number="109" hits="1" branch="false" />
             <line number="110" hits="1" branch="false" />
             <line number="111" hits="1" branch="false" />
-            <line number="119" hits="0" branch="false" />
-            <line number="120" hits="0" branch="true" condition-coverage="0% (0/2)" />
-            <line number="121" hits="0" branch="false" />
+            <line number="112" hits="1" branch="false" />
+            <line number="120" hits="0" branch="false" />
+            <line number="121" hits="0" branch="true" condition-coverage="0% (0/2)" />
             <line number="122" hits="0" branch="false" />
-            <line number="125" hits="0" branch="true" condition-coverage="0% (0/2)" />
-            <line number="126" hits="0" branch="false" />
-            <line number="128" hits="0" branch="false" />
+            <line number="123" hits="0" branch="false" />
+            <line number="126" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="127" hits="0" branch="false" />
             <line number="129" hits="0" branch="false" />
             <line number="130" hits="0" branch="false" />
             <line number="131" hits="0" branch="false" />
             <line number="132" hits="0" branch="false" />
             <line number="133" hits="0" branch="false" />
-            <line number="134" hits="0" branch="true" condition-coverage="0% (0/2)" />
-            <line number="135" hits="0" branch="false" />
+            <line number="134" hits="0" branch="false" />
+            <line number="135" hits="0" branch="true" condition-coverage="0% (0/2)" />
             <line number="136" hits="0" branch="false" />
-            <line number="139" hits="0" branch="false" />
+            <line number="137" hits="0" branch="false" />
             <line number="140" hits="0" branch="false" />
-            <line number="143" hits="0" branch="false" />
-            <line number="145" hits="0" branch="false" />
+            <line number="141" hits="0" branch="false" />
+            <line number="144" hits="0" branch="false" />
             <line number="146" hits="0" branch="false" />
             <line number="147" hits="0" branch="false" />
             <line number="148" hits="0" branch="false" />
-            <line number="152" hits="1" branch="false" />
-            <line number="153" hits="1" branch="true" condition-coverage="50% (1/2)" />
-            <line number="154" hits="0" branch="false" />
+            <line number="149" hits="0" branch="false" />
+            <line number="153" hits="1" branch="false" />
+            <line number="154" hits="1" branch="true" condition-coverage="50% (1/2)" />
             <line number="155" hits="0" branch="false" />
-            <line number="158" hits="1" branch="false" />
+            <line number="156" hits="0" branch="false" />
             <line number="159" hits="1" branch="false" />
             <line number="160" hits="1" branch="false" />
             <line number="161" hits="1" branch="false" />
-            <line number="162" hits="1" branch="true" condition-coverage="50% (1/2)" />
-            <line number="163" hits="0" branch="false" />
+            <line number="162" hits="1" branch="false" />
+            <line number="163" hits="1" branch="true" condition-coverage="50% (1/2)" />
             <line number="164" hits="0" branch="false" />
-            <line number="167" hits="1" branch="false" />
+            <line number="165" hits="0" branch="false" />
             <line number="168" hits="1" branch="false" />
-            <line number="174" hits="1" branch="false" />
+            <line number="169" hits="1" branch="false" />
             <line number="175" hits="1" branch="false" />
             <line number="176" hits="1" branch="false" />
             <line number="177" hits="1" branch="false" />
             <line number="178" hits="1" branch="false" />
             <line number="179" hits="1" branch="false" />
-            <line number="182" hits="0" branch="false" />
+            <line number="180" hits="1" branch="false" />
             <line number="183" hits="0" branch="false" />
             <line number="184" hits="0" branch="false" />
-            <line number="193" hits="0" branch="false" />
+            <line number="185" hits="0" branch="false" />
             <line number="194" hits="0" branch="false" />
             <line number="195" hits="0" branch="false" />
             <line number="196" hits="0" branch="false" />
             <line number="197" hits="0" branch="false" />
             <line number="198" hits="0" branch="false" />
-            <line number="200" hits="0" branch="false" />
-            <line number="202" hits="0" branch="true" condition-coverage="0% (0/2)" />
-            <line number="203" hits="0" branch="false" />
+            <line number="199" hits="0" branch="false" />
+            <line number="201" hits="0" branch="false" />
+            <line number="203" hits="0" branch="true" condition-coverage="0% (0/2)" />
             <line number="204" hits="0" branch="false" />
             <line number="205" hits="0" branch="false" />
             <line number="206" hits="0" branch="false" />
             <line number="207" hits="0" branch="false" />
-            <line number="209" hits="0" branch="false" />
+            <line number="208" hits="0" branch="false" />
             <line number="210" hits="0" branch="false" />
             <line number="211" hits="0" branch="false" />
-            <line number="213" hits="0" branch="false" />
+            <line number="212" hits="0" branch="false" />
             <line number="214" hits="0" branch="false" />
             <line number="215" hits="0" branch="false" />
             <line number="216" hits="0" branch="false" />
-            <line number="218" hits="0" branch="false" />
+            <line number="217" hits="0" branch="false" />
             <line number="219" hits="0" branch="false" />
+            <line number="220" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Controllers.CardController" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Controllers\CardController.cs" line-rate="0" branch-rate="0" complexity="34">
+        <class name="VVS_projekat.Controllers.CardController" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Controllers\CardController.cs" line-rate="0" branch-rate="0" complexity="34">
           <methods>
             <method name="Create" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -3694,7 +3694,7 @@
             <line number="159" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Controllers.HomeController" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Controllers\HomeController.cs" line-rate="0" branch-rate="0" complexity="7">
+        <class name="VVS_projekat.Controllers.HomeController" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Controllers\HomeController.cs" line-rate="0" branch-rate="0" complexity="7">
           <methods>
             <method name="Index" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -3742,7 +3742,7 @@
             <line number="35" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Controllers.LibrarianController" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Controllers\LibrarianController.cs" line-rate="0" branch-rate="0" complexity="25">
+        <class name="VVS_projekat.Controllers.LibrarianController" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Controllers\LibrarianController.cs" line-rate="0" branch-rate="0" complexity="25">
           <methods>
             <method name="Create" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -3946,20 +3946,20 @@
             <line number="151" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Controllers.LibraryMembersController" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Controllers\LibraryMembersController.cs" line-rate="0.544303797468354" branch-rate="0.35" complexity="25">
+        <class name="VVS_projekat.Controllers.LibraryMembersController" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Controllers\LibraryMembersController.cs" line-rate="0.552631578947368" branch-rate="0.333333333333333" complexity="23">
           <methods>
             <method name="Create" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="48" hits="1" branch="false" />
-                <line number="49" hits="1" branch="false" />
-                <line number="50" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
               </lines>
             </method>
             <method name="LibraryMemberExists" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="149" hits="0" branch="false" />
-                <line number="150" hits="0" branch="false" />
-                <line number="151" hits="0" branch="false" />
+                <line number="146" hits="0" branch="false" />
+                <line number="147" hits="0" branch="false" />
+                <line number="148" hits="0" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
@@ -3972,42 +3972,42 @@
             </method>
             <method name="Create" signature="()" line-rate="0.875" branch-rate="0.5" complexity="2">
               <lines>
+                <line number="55" hits="1" branch="false" />
+                <line number="56" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="57" hits="1" branch="false" />
                 <line number="58" hits="1" branch="false" />
-                <line number="59" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="59" hits="1" branch="false" />
                 <line number="60" hits="1" branch="false" />
-                <line number="61" hits="1" branch="false" />
-                <line number="62" hits="1" branch="false" />
+                <line number="62" hits="0" branch="false" />
                 <line number="63" hits="1" branch="false" />
-                <line number="65" hits="0" branch="false" />
-                <line number="66" hits="1" branch="false" />
               </lines>
             </method>
             <method name="Delete" signature="()" line-rate="0.636363636363636" branch-rate="0.5" complexity="4">
               <lines>
-                <line number="121" hits="1" branch="false" />
-                <line number="122" hits="1" branch="true" condition-coverage="50% (1/2)" />
-                <line number="123" hits="0" branch="false" />
-                <line number="124" hits="0" branch="false" />
-                <line number="127" hits="1" branch="false" />
-                <line number="128" hits="1" branch="false" />
-                <line number="129" hits="1" branch="true" condition-coverage="50% (1/2)" />
-                <line number="130" hits="0" branch="false" />
-                <line number="131" hits="0" branch="false" />
-                <line number="134" hits="1" branch="false" />
-                <line number="135" hits="1" branch="false" />
+                <line number="118" hits="1" branch="false" />
+                <line number="119" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="120" hits="0" branch="false" />
+                <line number="121" hits="0" branch="false" />
+                <line number="124" hits="1" branch="false" />
+                <line number="125" hits="1" branch="false" />
+                <line number="126" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="127" hits="0" branch="false" />
+                <line number="128" hits="0" branch="false" />
+                <line number="131" hits="1" branch="false" />
+                <line number="132" hits="1" branch="false" />
               </lines>
             </method>
             <method name="DeleteConfirmed" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
+                <line number="138" hits="1" branch="false" />
+                <line number="139" hits="1" branch="false" />
+                <line number="140" hits="1" branch="false" />
                 <line number="141" hits="1" branch="false" />
                 <line number="142" hits="1" branch="false" />
                 <line number="143" hits="1" branch="false" />
-                <line number="144" hits="1" branch="false" />
-                <line number="145" hits="1" branch="false" />
-                <line number="146" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="Details" signature="()" line-rate="0.636363636363636" branch-rate="0.5" complexity="4">
+            <method name="Details" signature="()" line-rate="0.75" branch-rate="0.5" complexity="2">
               <lines>
                 <line number="30" hits="1" branch="false" />
                 <line number="31" hits="1" branch="true" condition-coverage="50% (1/2)" />
@@ -4015,49 +4015,46 @@
                 <line number="33" hits="0" branch="false" />
                 <line number="36" hits="1" branch="false" />
                 <line number="37" hits="1" branch="false" />
-                <line number="38" hits="1" branch="true" condition-coverage="50% (1/2)" />
-                <line number="39" hits="0" branch="false" />
-                <line number="40" hits="0" branch="false" />
-                <line number="43" hits="1" branch="false" />
-                <line number="44" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
               </lines>
             </method>
             <method name="Edit" signature="()" line-rate="0.6" branch-rate="0.5" complexity="4">
               <lines>
-                <line number="70" hits="1" branch="false" />
-                <line number="71" hits="1" branch="true" condition-coverage="50% (1/2)" />
-                <line number="72" hits="0" branch="false" />
-                <line number="73" hits="0" branch="false" />
-                <line number="76" hits="1" branch="false" />
-                <line number="77" hits="1" branch="true" condition-coverage="50% (1/2)" />
-                <line number="78" hits="0" branch="false" />
-                <line number="79" hits="0" branch="false" />
-                <line number="81" hits="1" branch="false" />
-                <line number="82" hits="1" branch="false" />
+                <line number="67" hits="1" branch="false" />
+                <line number="68" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="69" hits="0" branch="false" />
+                <line number="70" hits="0" branch="false" />
+                <line number="73" hits="1" branch="false" />
+                <line number="74" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="75" hits="0" branch="false" />
+                <line number="76" hits="0" branch="false" />
+                <line number="78" hits="1" branch="false" />
+                <line number="79" hits="1" branch="false" />
               </lines>
             </method>
             <method name="Edit" signature="()" line-rate="0" branch-rate="0" complexity="6">
               <lines>
+                <line number="87" hits="0" branch="false" />
+                <line number="88" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="89" hits="0" branch="false" />
                 <line number="90" hits="0" branch="false" />
-                <line number="91" hits="0" branch="true" condition-coverage="0% (0/2)" />
-                <line number="92" hits="0" branch="false" />
-                <line number="93" hits="0" branch="false" />
-                <line number="96" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="93" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="94" hits="0" branch="false" />
+                <line number="96" hits="0" branch="false" />
                 <line number="97" hits="0" branch="false" />
+                <line number="98" hits="0" branch="false" />
                 <line number="99" hits="0" branch="false" />
                 <line number="100" hits="0" branch="false" />
                 <line number="101" hits="0" branch="false" />
-                <line number="102" hits="0" branch="false" />
+                <line number="102" hits="0" branch="true" condition-coverage="0% (0/2)" />
                 <line number="103" hits="0" branch="false" />
                 <line number="104" hits="0" branch="false" />
-                <line number="105" hits="0" branch="true" condition-coverage="0% (0/2)" />
-                <line number="106" hits="0" branch="false" />
                 <line number="107" hits="0" branch="false" />
-                <line number="110" hits="0" branch="false" />
+                <line number="108" hits="0" branch="false" />
                 <line number="111" hits="0" branch="false" />
+                <line number="113" hits="0" branch="false" />
                 <line number="114" hits="0" branch="false" />
-                <line number="116" hits="0" branch="false" />
-                <line number="117" hits="0" branch="false" />
               </lines>
             </method>
             <method name="Index" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -4082,75 +4079,72 @@
             <line number="33" hits="0" branch="false" />
             <line number="36" hits="1" branch="false" />
             <line number="37" hits="1" branch="false" />
-            <line number="38" hits="1" branch="true" condition-coverage="50% (1/2)" />
-            <line number="39" hits="0" branch="false" />
-            <line number="40" hits="0" branch="false" />
-            <line number="43" hits="1" branch="false" />
-            <line number="44" hits="1" branch="false" />
-            <line number="48" hits="1" branch="false" />
-            <line number="49" hits="1" branch="false" />
-            <line number="50" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="56" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="57" hits="1" branch="false" />
             <line number="58" hits="1" branch="false" />
-            <line number="59" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="59" hits="1" branch="false" />
             <line number="60" hits="1" branch="false" />
-            <line number="61" hits="1" branch="false" />
-            <line number="62" hits="1" branch="false" />
+            <line number="62" hits="0" branch="false" />
             <line number="63" hits="1" branch="false" />
-            <line number="65" hits="0" branch="false" />
-            <line number="66" hits="1" branch="false" />
-            <line number="70" hits="1" branch="false" />
-            <line number="71" hits="1" branch="true" condition-coverage="50% (1/2)" />
-            <line number="72" hits="0" branch="false" />
-            <line number="73" hits="0" branch="false" />
-            <line number="76" hits="1" branch="false" />
-            <line number="77" hits="1" branch="true" condition-coverage="50% (1/2)" />
-            <line number="78" hits="0" branch="false" />
-            <line number="79" hits="0" branch="false" />
-            <line number="81" hits="1" branch="false" />
-            <line number="82" hits="1" branch="false" />
+            <line number="67" hits="1" branch="false" />
+            <line number="68" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="69" hits="0" branch="false" />
+            <line number="70" hits="0" branch="false" />
+            <line number="73" hits="1" branch="false" />
+            <line number="74" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="75" hits="0" branch="false" />
+            <line number="76" hits="0" branch="false" />
+            <line number="78" hits="1" branch="false" />
+            <line number="79" hits="1" branch="false" />
+            <line number="87" hits="0" branch="false" />
+            <line number="88" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="89" hits="0" branch="false" />
             <line number="90" hits="0" branch="false" />
-            <line number="91" hits="0" branch="true" condition-coverage="0% (0/2)" />
-            <line number="92" hits="0" branch="false" />
-            <line number="93" hits="0" branch="false" />
-            <line number="96" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="93" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="94" hits="0" branch="false" />
+            <line number="96" hits="0" branch="false" />
             <line number="97" hits="0" branch="false" />
+            <line number="98" hits="0" branch="false" />
             <line number="99" hits="0" branch="false" />
             <line number="100" hits="0" branch="false" />
             <line number="101" hits="0" branch="false" />
-            <line number="102" hits="0" branch="false" />
+            <line number="102" hits="0" branch="true" condition-coverage="0% (0/2)" />
             <line number="103" hits="0" branch="false" />
             <line number="104" hits="0" branch="false" />
-            <line number="105" hits="0" branch="true" condition-coverage="0% (0/2)" />
-            <line number="106" hits="0" branch="false" />
             <line number="107" hits="0" branch="false" />
-            <line number="110" hits="0" branch="false" />
+            <line number="108" hits="0" branch="false" />
             <line number="111" hits="0" branch="false" />
+            <line number="113" hits="0" branch="false" />
             <line number="114" hits="0" branch="false" />
-            <line number="116" hits="0" branch="false" />
-            <line number="117" hits="0" branch="false" />
-            <line number="121" hits="1" branch="false" />
-            <line number="122" hits="1" branch="true" condition-coverage="50% (1/2)" />
-            <line number="123" hits="0" branch="false" />
-            <line number="124" hits="0" branch="false" />
-            <line number="127" hits="1" branch="false" />
-            <line number="128" hits="1" branch="false" />
-            <line number="129" hits="1" branch="true" condition-coverage="50% (1/2)" />
-            <line number="130" hits="0" branch="false" />
-            <line number="131" hits="0" branch="false" />
-            <line number="134" hits="1" branch="false" />
-            <line number="135" hits="1" branch="false" />
+            <line number="118" hits="1" branch="false" />
+            <line number="119" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="120" hits="0" branch="false" />
+            <line number="121" hits="0" branch="false" />
+            <line number="124" hits="1" branch="false" />
+            <line number="125" hits="1" branch="false" />
+            <line number="126" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="127" hits="0" branch="false" />
+            <line number="128" hits="0" branch="false" />
+            <line number="131" hits="1" branch="false" />
+            <line number="132" hits="1" branch="false" />
+            <line number="138" hits="1" branch="false" />
+            <line number="139" hits="1" branch="false" />
+            <line number="140" hits="1" branch="false" />
             <line number="141" hits="1" branch="false" />
             <line number="142" hits="1" branch="false" />
             <line number="143" hits="1" branch="false" />
-            <line number="144" hits="1" branch="false" />
-            <line number="145" hits="1" branch="false" />
-            <line number="146" hits="1" branch="false" />
-            <line number="149" hits="0" branch="false" />
-            <line number="150" hits="0" branch="false" />
-            <line number="151" hits="0" branch="false" />
+            <line number="146" hits="0" branch="false" />
+            <line number="147" hits="0" branch="false" />
+            <line number="148" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Controllers.MembershipPaymentController" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Controllers\MembershipPaymentController.cs" line-rate="0" branch-rate="0" complexity="25">
+        <class name="VVS_projekat.Controllers.MembershipPaymentController" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Controllers\MembershipPaymentController.cs" line-rate="0" branch-rate="0" complexity="25">
           <methods>
             <method name="Create" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -4354,7 +4348,7 @@
             <line number="151" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Controllers.PublisherController" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Controllers\PublisherController.cs" line-rate="0" branch-rate="0" complexity="25">
+        <class name="VVS_projekat.Controllers.PublisherController" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Controllers\PublisherController.cs" line-rate="0" branch-rate="0" complexity="25">
           <methods>
             <method name="Create" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -4558,7 +4552,7 @@
             <line number="151" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Controllers.RatingController" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Controllers\RatingController.cs" line-rate="0" branch-rate="0" complexity="25">
+        <class name="VVS_projekat.Controllers.RatingController" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Controllers\RatingController.cs" line-rate="0" branch-rate="0" complexity="25">
           <methods>
             <method name="Create" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -4776,7 +4770,7 @@
             <line number="158" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Controllers.RecommendationsController" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Controllers\RecommendationsController.cs" line-rate="0" branch-rate="0" complexity="12">
+        <class name="VVS_projekat.Controllers.RecommendationsController" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Controllers\RecommendationsController.cs" line-rate="0" branch-rate="0" complexity="12">
           <methods>
             <method name="GetBestBooks" signature="(...)" line-rate="0" branch-rate="0" complexity="2">
               <lines>
@@ -4920,7 +4914,7 @@
             <line number="106" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Controllers.ReservationController" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Controllers\ReservationController.cs" line-rate="0.652173913043478" branch-rate="0.466666666666667" complexity="38">
+        <class name="VVS_projekat.Controllers.ReservationController" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Controllers\ReservationController.cs" line-rate="0.652173913043478" branch-rate="0.466666666666667" complexity="38">
           <methods>
             <method name="BookSelectList" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -5212,7 +5206,7 @@
             <line number="229" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Controllers.ReservationPaymentController" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Controllers\ReservationPaymentController.cs" line-rate="0" branch-rate="0" complexity="34">
+        <class name="VVS_projekat.Controllers.ReservationPaymentController" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Controllers\ReservationPaymentController.cs" line-rate="0" branch-rate="0" complexity="34">
           <methods>
             <method name="Create" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -5442,7 +5436,7 @@
             <line number="166" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Controllers.VoucherController" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Controllers\VoucherController.cs" line-rate="0" branch-rate="0" complexity="25">
+        <class name="VVS_projekat.Controllers.VoucherController" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Controllers\VoucherController.cs" line-rate="0" branch-rate="0" complexity="25">
           <methods>
             <method name="Create" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -5646,7 +5640,7 @@
             <line number="151" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Data.ApplicationDbContext" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Data\ApplicationDbContext.cs" line-rate="1" branch-rate="1" complexity="12">
+        <class name="VVS_projekat.Data.ApplicationDbContext" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Data\ApplicationDbContext.cs" line-rate="1" branch-rate="1" complexity="12">
           <methods>
             <method name="get_Book" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -5752,7 +5746,7 @@
             <line number="44" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Models.Book" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Models\Book.cs" line-rate="0.818181818181818" branch-rate="1" complexity="11">
+        <class name="VVS_projekat.Models.Book" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Models\Book.cs" line-rate="0.818181818181818" branch-rate="1" complexity="11">
           <methods>
             <method name="get_BookId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -5824,7 +5818,7 @@
             <line number="27" hits="123" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Models.Card" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Models\Card.cs" line-rate="0" branch-rate="1" complexity="5">
+        <class name="VVS_projekat.Models.Card" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Models\Card.cs" line-rate="0" branch-rate="1" complexity="5">
           <methods>
             <method name="get_CardID" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -5860,7 +5854,7 @@
             <line number="13" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Models.CountReservationResult" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Models\CountReservationResult.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="VVS_projekat.Models.CountReservationResult" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Models\CountReservationResult.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="get_numberOfReservations" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -5872,7 +5866,7 @@
             <line number="5" hits="2" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Models.ErrorViewModel" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Models\ErrorViewModel.cs" line-rate="0" branch-rate="1" complexity="2">
+        <class name="VVS_projekat.Models.ErrorViewModel" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Models\ErrorViewModel.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
             <method name="get_RequestId" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -5890,7 +5884,7 @@
             <line number="9" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Models.LateActivatedResult" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Models\LateActivatedResult.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="VVS_projekat.Models.LateActivatedResult" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Models\LateActivatedResult.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="get_LateActivatedReservations" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -5902,7 +5896,7 @@
             <line number="7" hits="2" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Models.Librarian" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Models\Librarian.cs" line-rate="0" branch-rate="1" complexity="9">
+        <class name="VVS_projekat.Models.Librarian" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Models\Librarian.cs" line-rate="0" branch-rate="1" complexity="9">
           <methods>
             <method name="get_LibrarianId" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -5962,7 +5956,7 @@
             <line number="20" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Models.LibraryMember" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Models\LibraryMember.cs" line-rate="0.625" branch-rate="1" complexity="8">
+        <class name="VVS_projekat.Models.LibraryMember" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Models\LibraryMember.cs" line-rate="0.625" branch-rate="1" complexity="8">
           <methods>
             <method name="get_LibraryMemberId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -6016,7 +6010,7 @@
             <line number="19" hits="45" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Models.LibraryUser" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Models\LibraryUser.cs" line-rate="0" branch-rate="1" complexity="7">
+        <class name="VVS_projekat.Models.LibraryUser" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Models\LibraryUser.cs" line-rate="0" branch-rate="1" complexity="7">
           <methods>
             <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -6064,7 +6058,7 @@
             <line number="19" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Models.MembershipPayment" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Models\MembershipPayment.cs" line-rate="0" branch-rate="1" complexity="8">
+        <class name="VVS_projekat.Models.MembershipPayment" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Models\MembershipPayment.cs" line-rate="0" branch-rate="1" complexity="8">
           <methods>
             <method name="get_MembershipPaymentId" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -6118,7 +6112,7 @@
             <line number="24" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Models.MostReservedBookResult" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Models\MostReservedBookResult.cs" line-rate="0" branch-rate="1" complexity="2">
+        <class name="VVS_projekat.Models.MostReservedBookResult" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Models\MostReservedBookResult.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
             <method name="get_MostReservedBookTitle" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -6136,7 +6130,7 @@
             <line number="6" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Models.Publisher" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Models\Publisher.cs" line-rate="0" branch-rate="1" complexity="5">
+        <class name="VVS_projekat.Models.Publisher" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Models\Publisher.cs" line-rate="0" branch-rate="1" complexity="5">
           <methods>
             <method name="get_PublisherId" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -6172,7 +6166,7 @@
             <line number="16" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Models.Rating" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Models\Rating.cs" line-rate="0" branch-rate="1" complexity="8">
+        <class name="VVS_projekat.Models.Rating" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Models\Rating.cs" line-rate="0" branch-rate="1" complexity="8">
           <methods>
             <method name="get_RatingId" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -6226,7 +6220,7 @@
             <line number="25" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Models.Reservation" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Models\Reservation.cs" line-rate="0.714285714285714" branch-rate="1" complexity="7">
+        <class name="VVS_projekat.Models.Reservation" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Models\Reservation.cs" line-rate="0.714285714285714" branch-rate="1" complexity="7">
           <methods>
             <method name="get_ReservationId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -6274,7 +6268,7 @@
             <line number="21" hits="123" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Models.ReservationPayment" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Models\ReservationPayment.cs" line-rate="0" branch-rate="1" complexity="7">
+        <class name="VVS_projekat.Models.ReservationPayment" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Models\ReservationPayment.cs" line-rate="0" branch-rate="1" complexity="7">
           <methods>
             <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -6322,7 +6316,7 @@
             <line number="19" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Models.Voucher" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Models\Voucher.cs" line-rate="0" branch-rate="1" complexity="6">
+        <class name="VVS_projekat.Models.Voucher" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Models\Voucher.cs" line-rate="0" branch-rate="1" complexity="6">
           <methods>
             <method name="get_VoucherID" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -6364,7 +6358,7 @@
             <line number="14" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Program" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Program.cs" line-rate="0" branch-rate="1" complexity="2">
+        <class name="VVS_projekat.Program" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Program.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
             <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -6394,7 +6388,7 @@
             <line number="24" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="VVS_projekat.Startup" filename="C:\Users\DT User\source\repos\VVS-projekat\VVS-projekat\Startup.cs" line-rate="0" branch-rate="0" complexity="5">
+        <class name="VVS_projekat.Startup" filename="C:\Users\DT User\Source\Repos\VVS-projekat\VVS-projekat\Startup.cs" line-rate="0" branch-rate="0" complexity="5">
           <methods>
             <method name="get_Configuration" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>

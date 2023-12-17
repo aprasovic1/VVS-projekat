@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FsQnSOSAA0KwKG7+kjCnVoxCCNXpfTnJMzF6PqSRcY/0cQlR9EIiNmeEq5v0IADuBxv78sP5m9txbkRI+KRIRA==",
+  "dgSpecHash": "61YbmeJLo+5DLZ8IGHFfCoE2P6L1wxVHKJ1qBetD+v7jewkb5qZdgSTAnMv2JRUG05mbYZw8hnxsxB0IiPpiJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DT User\\source\\repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
+  "projectFilePath": "C:\\Users\\DT User\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DT User\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\DT User\\.nuget\\packages\\entityframeworkcoremock.moq\\2.4.0\\entityframeworkcoremock.moq.2.4.0.nupkg.sha512",
