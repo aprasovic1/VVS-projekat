@@ -175,6 +175,9 @@ namespace VVS_projekat.Controllers
           return _context.ReservationPayment.Any(e => e.PaymentId == id);
         }
         private bool ValidateVoucher(string voucherCode)
+
+        //Greška:Potrebna provjera duzine vaucera
+
         {
             int j = 0;
             for (int  i = 0;  i < voucherCode.Length;  i++)

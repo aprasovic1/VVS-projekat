@@ -158,6 +158,8 @@ namespace VVS_projekat.Controllers
         {
           return _context.Card.Any(e => e.CardID == id);
         }
+
+        //Greška:Pogresno nazvana metoda
         //Generates a random card number using Luhn algorithm
         private static string GeerateCardNumber()
         {
