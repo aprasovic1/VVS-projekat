@@ -39,7 +39,10 @@ namespace VVS_projekat.Controllers
             var libraryMember = await _context.LibraryMember
                 .FirstOrDefaultAsync(m => m.LibraryMemberId == id);
 
-            // Details method does not check if the libraryMember is null after the query from the database
+            if (libraryMember == null)
+            {
+                return NotFound();
+            }
             return View(libraryMember);
         }
 
