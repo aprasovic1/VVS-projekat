@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using VVS_projekat.Data;
 using VVS_projekat.Models;
 
+
 namespace VVS_projekat.Controllers
 {
     public class CardController : Controller
