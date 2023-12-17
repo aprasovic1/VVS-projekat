@@ -172,7 +172,7 @@ namespace VVS_projekat.Controllers
                         sum += (int)Char.GetNumericValue(j);
                     }
                     voucherCode.Append((sum % 10).ToString());
-                    i++;
+                    i++;//Greska:Voucheri trebaju biti duzine 12, ovom linijom ce biti 13
                 }
                 voucherCode.Append(nextChar);
             }
