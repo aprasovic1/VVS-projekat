@@ -47,13 +47,17 @@ namespace VVS_projekat.Controllers
         */
 
         // GET: Book/Details/5
+
+        
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
+            
 
+            //Wrong logic in the FirstORDefault method should be m => m.BookId == id
             var book = await _context.Book
     .Include(b => b.Publisher)
     .Include(b => b.Reservation)
