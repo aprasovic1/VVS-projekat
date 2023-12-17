@@ -217,7 +217,7 @@ namespace VVS_projekat.Controllers
             }
             else
             {
-                result.MostReservedBookTitle = "No reservations";
+                result.MostReservedBookTitle = "No reservations";//Poruka nije adekvatna, ne opisuje problem dovoljno.
                 result.ReservationCount = 0;
             }
 

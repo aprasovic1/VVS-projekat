@@ -355,3 +355,12 @@ C:\Users\DT User\source\repos\VVS-projekat\TestProject1\obj\Debug\net6.0\refint\
 C:\Users\DT User\source\repos\VVS-projekat\TestProject1\obj\Debug\net6.0\TestProject1.pdb
 C:\Users\DT User\source\repos\VVS-projekat\TestProject1\obj\Debug\net6.0\TestProject1.genruntimeconfig.cache
 C:\Users\DT User\source\repos\VVS-projekat\TestProject1\obj\Debug\net6.0\ref\TestProject1.dll
+C:\Users\Asmir\source\repos\VVS-projekat\TestProject1\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\Asmir\source\repos\VVS-projekat\TestProject1\obj\Debug\net6.0\TestProject1.csproj.AssemblyReference.cache
+C:\Users\Asmir\source\repos\VVS-projekat\TestProject1\obj\Debug\net6.0\TestProject1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asmir\source\repos\VVS-projekat\TestProject1\obj\Debug\net6.0\TestProject1.AssemblyInfoInputs.cache
+C:\Users\Asmir\source\repos\VVS-projekat\TestProject1\obj\Debug\net6.0\TestProject1.AssemblyInfo.cs
+C:\Users\Asmir\source\repos\VVS-projekat\TestProject1\obj\Debug\net6.0\TestProject1.csproj.CoreCompileInputs.cache
+C:\Users\Asmir\source\repos\VVS-projekat\TestProject1\obj\Debug\net6.0\TestProject1.dll
+C:\Users\Asmir\source\repos\VVS-projekat\TestProject1\obj\Debug\net6.0\refint\TestProject1.dll
+C:\Users\Asmir\source\repos\VVS-projekat\TestProject1\obj\Debug\net6.0\TestProject1.pdb
