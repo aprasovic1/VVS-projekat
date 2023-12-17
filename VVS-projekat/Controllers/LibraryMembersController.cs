@@ -26,6 +26,9 @@ namespace VVS_projekat.Controllers
         }
 
         // GET: LibraryMember/Details/5
+
+
+        
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -35,8 +38,8 @@ namespace VVS_projekat.Controllers
 
             var libraryMember = await _context.LibraryMember
                 .FirstOrDefaultAsync(m => m.LibraryMemberId == id);
-            
 
+            // Details method does not check if the libraryMember is null after the query from the database
             return View(libraryMember);
         }
 
