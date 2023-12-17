@@ -1,182 +1,47 @@
+using Microsoft.CodeAnalysis.CSharp.Syntax;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
+using VVS_projekat.Controllers;
 using VVS_projekat.Data;
 using VVS_projekat.Models;
 
-namespace VVS_projekat.Controllers
+namespace TestProject1
 {
-    public class CardController : Controller
+    [TestClass]
+    public class CardTest
     {
-        private readonly ApplicationDbContext _context;
+        private CardController _cardController;
+        private ApplicationDbContext _context;
+        private List<Card> validCardList, invalidCardList;
 
-        public CardController(ApplicationDbContext context)
+        [TestInitialize]
+        public void Setup()
         {
-            _context = context;
+            var options = new DbContextOptionsBuilder<ApplicationDbContext>()
+                .UseInMemoryDatabase(databaseName: "TestDataBase")
+                .Options;
+
+            _context = new ApplicationDbContext(options);
+            _context.Database.EnsureDeleted(); // Obrisati postojeću bazu
+            _context.Database.EnsureCreated(); // Ponovno je stvoriti
+            _cardController = new CardController(_context);
+
         }
 
-        // GET: Card
-        public async Task<IActionResult> Index()
+
+        [TestMethod]
+        public async Task CardGeneratorLengthTest()
         {
-              return View(await _context.Card.ToListAsync());
+            for (int i = 0; i < 10; i++)
+            {
+                var result = CardController.GenerateCardNumber().Length;
+                Assert.AreEqual(result, 16);
+            }
         }
 
-        // GET: Card/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null || _context.Card == null)
-            {
-                return NotFound();
-            }
-
-            var card = await _context.Card
-                .FirstOrDefaultAsync(m => m.CardID == id);
-            if (card == null)
-            {
-                return NotFound();
-            }
-
-            return View(card);
-        }
-
-        // GET: Card/Create
-        public IActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: Card/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CardID,CardExpirationDate,CardAmount")] Card card)
-        {
-            if (ModelState.IsValid)
-            {
-                card.CardNumber = GenerateCardNumber();
-                _context.Add(card);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(card);
-        }
-
-        // GET: Card/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null || _context.Card == null)
-            {
-                return NotFound();
-            }
-
-            var card = await _context.Card.FindAsync(id);
-            if (card == null)
-            {
-                return NotFound();
-            }
-            return View(card);
-        }
-
-        // POST: Card/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("CardID,CardNumber,CardExpirationDate,CardAmount")] Card card)
-        {
-            if (id != card.CardID)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(card);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!CardExists(card.CardID))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(card);
-        }
-
-        // GET: Card/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null || _context.Card == null)
-            {
-                return NotFound();
-            }
-
-            var card = await _context.Card
-                .FirstOrDefaultAsync(m => m.CardID == id);
-            if (card == null)
-            {
-                return NotFound();
-            }
-
-            return View(card);
-        }
-
-        // POST: Card/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            if (_context.Card == null)
-            {
-                return Problem("Entity set 'ApplicationDbContext.Card'  is null.");
-            }
-            var card = await _context.Card.FindAsync(id);
-            if (card != null)
-            {
-                _context.Card.Remove(card);
-            }
-            
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool CardExists(int id)
-        {
-          return _context.Card.Any(e => e.CardID == id);
-        }
-
-        //Generates a random card number using Luhn algorithm
-        private static string GenerateCardNumber()
-        {
-            Random random = new Random();
-            string cardNumber = "";
-            int total = 0;
-            for (int i = 0; i < 15; i++)
-            {
-                int randomNumber = random.Next(0, 10);
-                cardNumber += randomNumber;
-                if (i % 2 == 0)
-                {
-                    randomNumber *= 2;
-                }
-                total += randomNumber / 10 + randomNumber % 10;
-            }
-            cardNumber += (10 - total % 10) % 10;
-            return cardNumber;
-        }
     }
 }
