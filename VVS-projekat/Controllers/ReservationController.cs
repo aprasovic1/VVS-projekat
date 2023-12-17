@@ -200,7 +200,7 @@ namespace VVS_projekat.Controllers
 
         // CountReservation
         // GET: Reservation/CountReservation
-        // Counts the total number of books in the library.
+        // Counts the total number of reservations in the library.
         [HttpGet]
         [Route("CountReservation")]
         public async Task<CountReservationResult> CountReservation()
@@ -220,14 +220,14 @@ namespace VVS_projekat.Controllers
         public async Task<LateActivatedResult> LateActivatedReservations()
         {
             //U liniji ispod treba dodati await kad se radi sa context-om
-            var lateActivatedReservations = _context.Reservation
+            var lateActivatedReservations = await _context.Reservation
                 .Where(r => r.Status == "Activated" && r.IssuedDate < r.ReturnDate)
                 .ToListAsync();
 
             var result = new LateActivatedResult
             {
                 //u liniji ispod await je višak
-                LateActivatedReservations = await lateActivatedReservations
+                LateActivatedReservations = lateActivatedReservations
             };
 
             return result;
