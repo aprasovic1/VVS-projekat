@@ -57,11 +57,10 @@ namespace VVS_projekat.Controllers
             }
             
 
-            //Wrong logic in the FirstORDefault method should be m => m.BookId == id
             var book = await _context.Book
     .Include(b => b.Publisher)
     .Include(b => b.Reservation)
-    .FirstOrDefaultAsync(m => m.BookId != id);
+    .FirstOrDefaultAsync(m => m.BookId == id);
 
             if (book == null)
             {
