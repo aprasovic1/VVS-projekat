@@ -58,7 +58,7 @@ namespace VVS_projekat.Controllers
         {
             if (ModelState.IsValid)
             {
-                card.CardNumber = GeerateCardNumber();
+                card.CardNumber = GenerateCardNumber();
                 _context.Add(card);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

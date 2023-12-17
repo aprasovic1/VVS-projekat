@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DT User\\Source\\Repos\\VVS-projekat\\TestProject1\\TestProject1.csproj": {}
+    "C:\\Users\\Asmir\\Source\\Repos\\VVS-projekat\\TestProject1\\TestProject1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DT User\\Source\\Repos\\VVS-projekat\\TestProject1\\TestProject1.csproj": {
+    "C:\\Users\\Asmir\\Source\\Repos\\VVS-projekat\\TestProject1\\TestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DT User\\Source\\Repos\\VVS-projekat\\TestProject1\\TestProject1.csproj",
+        "projectUniqueName": "C:\\Users\\Asmir\\Source\\Repos\\VVS-projekat\\TestProject1\\TestProject1.csproj",
         "projectName": "TestProject1",
-        "projectPath": "C:\\Users\\DT User\\Source\\Repos\\VVS-projekat\\TestProject1\\TestProject1.csproj",
-        "packagesPath": "C:\\Users\\DT User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DT User\\Source\\Repos\\VVS-projekat\\TestProject1\\obj\\",
+        "projectPath": "C:\\Users\\Asmir\\Source\\Repos\\VVS-projekat\\TestProject1\\TestProject1.csproj",
+        "packagesPath": "C:\\Users\\Asmir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asmir\\Source\\Repos\\VVS-projekat\\TestProject1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DT User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asmir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\DT User\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj": {
-                "projectPath": "C:\\Users\\DT User\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj"
+              "C:\\Users\\Asmir\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj": {
+                "projectPath": "C:\\Users\\Asmir\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj"
               }
             }
           }
@@ -81,17 +81,17 @@
         }
       }
     },
-    "C:\\Users\\DT User\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj": {
+    "C:\\Users\\Asmir\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DT User\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
+        "projectUniqueName": "C:\\Users\\Asmir\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
         "projectName": "VVS-projekat",
-        "projectPath": "C:\\Users\\DT User\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
-        "packagesPath": "C:\\Users\\DT User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DT User\\Source\\Repos\\VVS-projekat\\VVS-projekat\\obj\\",
+        "projectPath": "C:\\Users\\Asmir\\Source\\Repos\\VVS-projekat\\VVS-projekat\\VVS-projekat.csproj",
+        "packagesPath": "C:\\Users\\Asmir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asmir\\Source\\Repos\\VVS-projekat\\VVS-projekat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DT User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asmir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
