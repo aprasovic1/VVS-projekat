@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\VVS-projekat",
+    "\\VVS-projekat\\Controllers"
   ],
-  "SelectedNode": "\\VVS-projekat.sln",
+  "SelectedNode": "\\TestResults",
   "PreviewInSolutionExplorer": false
 }

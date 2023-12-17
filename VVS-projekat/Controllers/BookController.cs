@@ -215,9 +215,10 @@ namespace VVS_projekat.Controllers
             }
             else
             {
-                result.MostReservedBookTitle = "No reservations found in the specified date range.";
+                result.MostReservedBookTitle = "No reservations";
                 result.ReservationCount = 0;
             }
+
 
             return result;
         }

@@ -205,7 +205,7 @@ namespace VVS_projekat.Controllers
             int reservationNumber = await _context.Reservation.CountAsync();
             var result = new CountReservationResult
             {
-                numberOfReservations = reservationNumber
+                numberOfReservation = reservationNumber
             };
             return result;
         }
@@ -216,16 +216,17 @@ namespace VVS_projekat.Controllers
         [Route("LateActivatedReservations")]
         public async Task<LateActivatedResult> LateActivatedReservations()
         {
-            var lateActivatedReservations = await _context.Reservation
+            var lateActivatedReservations = _context.Reservation
                 .Where(r => r.Status == "Activated" && r.IssuedDate < r.ReturnDate)
-                .ToListAsync();
+                .ToListAsync(); 
 
             var result = new LateActivatedResult
             {
-                LateActivatedReservations = lateActivatedReservations
+                LateActivatedReservations = await lateActivatedReservations
             };
 
             return result;
         }
+
     }
 }
