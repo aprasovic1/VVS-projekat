@@ -160,7 +160,7 @@ namespace VVS_projekat.Controllers
             int randomIndex = Random.Next(characters.Length);
             char nextChar = characters[randomIndex];
             voucherCode.Append(nextChar);
-            for (int i = 0; i < 12; i++)
+            for (int i = 0; i < 11; i++)
             {
                 randomIndex = Random.Next(characters.Length);
                 nextChar = characters[randomIndex];
@@ -172,7 +172,7 @@ namespace VVS_projekat.Controllers
                         sum += (int)Char.GetNumericValue(j);
                     }
                     voucherCode.Append((sum % 10).ToString());
-                    i++;//Greska:Voucheri trebaju biti duzine 12, ovom linijom ce biti 13
+                    i++;
                 }
                 voucherCode.Append(nextChar);
             }

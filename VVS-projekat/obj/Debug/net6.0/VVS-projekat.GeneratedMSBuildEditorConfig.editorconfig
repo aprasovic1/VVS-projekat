@@ -9,265 +9,265 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VVS_projekat
 build_property.RootNamespace = VVS_projekat
-build_property.ProjectDir = C:\Users\Asmir\source\repos\VVS-projekat\VVS-projekat\
+build_property.ProjectDir = C:\Users\Edwin\Source\Repos\VVS-projekat\VVS-projekat\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Asmir\source\repos\VVS-projekat\VVS-projekat
+build_property.MSBuildProjectDirectory = C:\Users\Edwin\Source\Repos\VVS-projekat\VVS-projekat
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Book/Create.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Book/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Book/Delete.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Book/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Book/Details.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Book/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Book/Edit.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Book/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Book/Index.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Book/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Card/Create.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Card/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Card/Delete.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Card/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Card/Details.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Card/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Card/Edit.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Card/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Card/Index.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Card/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Home/Index.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Home/Privacy.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Librarian/Create.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Librarian/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Librarian/Delete.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Librarian/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Librarian/Details.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Librarian/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Librarian/Edit.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Librarian/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Librarian/Index.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Librarian/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyaWFuXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/LibraryMembers/Create.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/LibraryMembers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeU1lbWJlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/LibraryMembers/Delete.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/LibraryMembers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeU1lbWJlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/LibraryMembers/Details.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/LibraryMembers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeU1lbWJlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/LibraryMembers/Edit.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/LibraryMembers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeU1lbWJlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/LibraryMembers/Index.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/LibraryMembers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeU1lbWJlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/MembershipPayment/Create.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/MembershipPayment/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcFBheW1lbnRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/MembershipPayment/Delete.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/MembershipPayment/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcFBheW1lbnRcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/MembershipPayment/Details.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/MembershipPayment/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcFBheW1lbnRcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/MembershipPayment/Edit.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/MembershipPayment/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcFBheW1lbnRcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/MembershipPayment/Index.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/MembershipPayment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcFBheW1lbnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Publisher/Create.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Publisher/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Publisher/Delete.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Publisher/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Publisher/Details.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Publisher/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Publisher/Edit.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Publisher/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Publisher/Index.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Publisher/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Rating/Create.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Rating/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmF0aW5nXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Rating/Delete.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Rating/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmF0aW5nXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Rating/Details.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Rating/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmF0aW5nXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Rating/Edit.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Rating/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmF0aW5nXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Rating/Index.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Rating/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmF0aW5nXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Recommendations/Create.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Recommendations/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjb21tZW5kYXRpb25zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Recommendations/Delete.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Recommendations/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjb21tZW5kYXRpb25zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Recommendations/Details.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Recommendations/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjb21tZW5kYXRpb25zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Recommendations/Edit.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Recommendations/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjb21tZW5kYXRpb25zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Recommendations/Index.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Recommendations/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjb21tZW5kYXRpb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/ReservationPayment/Create.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/ReservationPayment/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25QYXltZW50XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/ReservationPayment/Delete.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/ReservationPayment/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25QYXltZW50XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/ReservationPayment/Details.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/ReservationPayment/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25QYXltZW50XERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/ReservationPayment/Edit.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/ReservationPayment/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25QYXltZW50XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/ReservationPayment/Index.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/ReservationPayment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25QYXltZW50XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Reservation/Create.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Reservation/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Reservation/Delete.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Reservation/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Reservation/Details.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Reservation/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Reservation/Edit.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Reservation/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Reservation/Index.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Reservation/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Shared/Error.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Shared/_Layout.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Voucher/Create.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Voucher/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm91Y2hlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Voucher/Delete.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Voucher/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm91Y2hlclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Voucher/Details.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Voucher/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm91Y2hlclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Voucher/Edit.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Voucher/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm91Y2hlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/Voucher/Index.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/Voucher/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm91Y2hlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/_ViewImports.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Asmir/source/repos/VVS-projekat/VVS-projekat/Views/_ViewStart.cshtml]
+[C:/Users/Edwin/Source/Repos/VVS-projekat/VVS-projekat/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
