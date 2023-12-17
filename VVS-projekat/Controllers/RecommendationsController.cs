@@ -27,6 +27,7 @@ namespace VVS_projekat.Controllers
             try
             {
                 books = GetBestBooks(allBooks);
+                
             }
             catch (ArgumentException ex) //Metoda RecommendationsController.Index() hvata ArgumentException, dok GetAllBooksAsync() baca ArgumentNullException.
             {               
@@ -79,6 +80,7 @@ namespace VVS_projekat.Controllers
                 {
                     Book = book,
                     AverageRating = avgRating,
+                    
 
                 });
             }
