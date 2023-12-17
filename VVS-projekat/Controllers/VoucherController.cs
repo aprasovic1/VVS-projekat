@@ -1,6 +1,7 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -54,10 +55,12 @@ namespace VVS_projekat.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("VoucherID,VoucherDate,VoucherCode,VoucherAmount,VoucherDiscount")] Voucher voucher)
+        public async Task<IActionResult> Create([Bind("VoucherID,VoucherAmount,VoucherDiscount")] Voucher voucher)
         {
             if (ModelState.IsValid)
             {
+                voucher.VoucherDate = DateTime.Now;
+                voucher.VoucherCode = GenerateVoucherCode();
                 _context.Add(voucher);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -149,5 +152,33 @@ namespace VVS_projekat.Controllers
         {
             return _context.Voucher.Any(e => e.VoucherID == id);
         }
+        private static string GenerateVoucherCode()
+        {
+            Random Random = new Random();
+            const string characters = "0123456789";
+            StringBuilder voucherCode = new StringBuilder();
+            int randomIndex = Random.Next(characters.Length);
+            char nextChar = characters[randomIndex];
+            voucherCode.Append(nextChar);
+            for (int i = 0; i < 12; i++)
+            {
+                randomIndex = Random.Next(characters.Length);
+                nextChar = characters[randomIndex];
+                if (i % 4 == 0)
+                {
+                    int sum = 0;
+                    foreach (char j in voucherCode.ToString())
+                    {
+                        sum += (int)Char.GetNumericValue(j);
+                    }
+                    voucherCode.Append((sum % 10).ToString());
+                    i++;
+                }
+                voucherCode.Append(nextChar);
+            }
+
+            return voucherCode.ToString();
+        }
+
     }
 }
