@@ -55,9 +55,10 @@ namespace VVS_projekat.Controllers
             }
 
             var book = await _context.Book
-                .Include(b => b.Publisher)
-                .Include(b => b.Reservation)
-                .FirstOrDefaultAsync(m => m.BookId == id);
+    .Include(b => b.Publisher)
+    .Include(b => b.Reservation)
+    .FirstOrDefaultAsync(m => m.BookId != id);
+
             if (book == null)
             {
                 return NotFound();

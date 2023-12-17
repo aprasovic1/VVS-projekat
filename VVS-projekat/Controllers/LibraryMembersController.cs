@@ -35,10 +35,7 @@ namespace VVS_projekat.Controllers
 
             var libraryMember = await _context.LibraryMember
                 .FirstOrDefaultAsync(m => m.LibraryMemberId == id);
-            if (libraryMember == null)
-            {
-                return NotFound();
-            }
+            
 
             return View(libraryMember);
         }
