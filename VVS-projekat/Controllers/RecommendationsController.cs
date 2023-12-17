@@ -28,7 +28,7 @@ namespace VVS_projekat.Controllers
             {
                 books = GetBestBooks(allBooks);
             }
-            catch (ArgumentException ex)
+            catch (ArgumentException ex) //Metoda RecommendationsController.Index() hvata ArgumentException, dok GetAllBooksAsync() baca ArgumentNullException.
             {
                 ViewBag.EmptyList = "Nema knjiga u sistemu!";
             }
@@ -40,7 +40,7 @@ namespace VVS_projekat.Controllers
         {
             return await _context.Book.ToListAsync();
         }
-
+        //Dodati komentare u kod radi bolje čitljivosti i održavanja koda.
         public List<Book> GetBestBooks(List<Book> allBooks)
         {
             if (allBooks.Count == 0) throw new ArgumentNullException("Prazna lista knjiga");
@@ -51,11 +51,11 @@ namespace VVS_projekat.Controllers
                     .ToList();
 
 
-            var topCount = (int)(sortedBooks.Count);
+            var topCount = (int)(sortedBooks.Count); //U metodi GetBestBooks, potrebno je pomnožiti sortedBooks.Count sa 0.3 kako bi se dobile samo najbolje 30% knjiga.
             var topBooks = sortedBooks.Take(topCount).ToList();
 
             var books = new List<Book>();
-            foreach (var bookWithRating in topBooks)
+            foreach (var bookWithRating in topBooks) 
             {
                 books.Add(bookWithRating.Book);
 
@@ -63,10 +63,10 @@ namespace VVS_projekat.Controllers
 
             return books;
         }
-
+        //Dodati komentare u kod radi bolje čitljivosti i održavanja koda.
         public List<BookWithAverageRating> CalculateAverageRatings(List<Book> books)
         {
-            var booksWithAverageRatings = new List<BookWithAverageRating>();
+            var booksWithAverageRatings = new List<BookWithAverageRating>(); //Dio koda treba izdvojiti iz metode GetBestBooks i staviti u zasebnu metodu GetBooksFromBooksWithRating.
 
             foreach (var book in books)
             {
