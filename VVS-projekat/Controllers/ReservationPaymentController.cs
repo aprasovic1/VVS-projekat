@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -57,10 +57,20 @@ namespace VVS_projekat.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("PaymentId,PaymentDate,Amount,VoucherCode")] ReservationPayment reservationPayment)
+        public async Task<IActionResult> Create([Bind("PaymentId,Amount,VoucherCode")] ReservationPayment reservationPayment)
         {
             if (ModelState.IsValid)
             {
+                var voucher = _context.Voucher.Where(v => v.VoucherCode == reservationPayment.VoucherCode).FirstOrDefault();
+                if (voucher != null && voucher.VoucherAmount >= (int)reservationPayment.Amount)
+                {
+                    voucher.VoucherAmount -= (int)reservationPayment.Amount;
+                }
+                else
+                {
+                    return RedirectToAction(nameof(Create));
+                }
+                reservationPayment.PaymentDate = DateTime.Now;
                 _context.Add(reservationPayment);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -163,6 +173,19 @@ namespace VVS_projekat.Controllers
         private bool ReservationPaymentExists(int id)
         {
           return _context.ReservationPayment.Any(e => e.PaymentId == id);
+        }
+        private bool ValidateVoucher(string voucherCode)
+        {
+            int j = 0;
+            for (int  i = 0;  i < voucherCode.Length;  i++)
+            {
+                if (i % 4 == 0)
+                {
+                    if (j % 10 != (int)voucherCode[i]) return false;
+                }
+                j += (int)voucherCode[i];
+            }
+            return true;
         }
     }
 }
