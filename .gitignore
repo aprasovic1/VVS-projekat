@@ -2,9 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/Testovi/obj/Release/net6.0
-/TestProject1
-/UnitTestProject1/obj/Release
 /.vs/VVS-projekat/FileContentIndex
 /.vs/slnx.sqlite
 /.vs/slnx.sqlite
