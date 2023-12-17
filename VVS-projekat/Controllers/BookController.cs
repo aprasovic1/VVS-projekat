@@ -37,8 +37,14 @@ namespace VVS_projekat.Controllers
             return View(await booksQuery.ToListAsync());
         }
 
-
-
+        /*
+        // GET: Book2
+        public async Task<IActionResult> Index()
+        {
+            var applicationDbContext = _context.Book.Include(b => b.Publisher).Include(b => b.Reservation);
+            return View(await applicationDbContext.ToListAsync());
+        }
+        */
 
         // GET: Book/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -49,9 +55,10 @@ namespace VVS_projekat.Controllers
             }
 
             var book = await _context.Book
-                .Include(b => b.Publisher)
-                .Include(b => b.Reservation)
-                .FirstOrDefaultAsync(m => m.BookId == id);
+    .Include(b => b.Publisher)
+    .Include(b => b.Reservation)
+    .FirstOrDefaultAsync(m => m.BookId != id);
+
             if (book == null)
             {
                 return NotFound();
@@ -175,6 +182,41 @@ namespace VVS_projekat.Controllers
         private bool BookExists(int id)
         {
             return _context.Book.Any(e => e.BookId == id);
+        }
+
+
+        // GET: Reservation/MostReservedBookTitle
+        // Displays the title of the book that has been most reserved in the reservation list
+        // within a specified time frame.
+        [HttpGet]
+        [Route("MostReservedBook")]
+        public async Task<MostReservedBookResult> MostReservedBookTitle(DateTime startDate, DateTime endDate)
+        {
+            var mostReservedBook = await _context.Reservation
+                .Where(r => r.IssuedDate >= startDate && r.IssuedDate <= endDate && r.Status == "Book")
+                .GroupBy(r => r.LibraryMemberFk)
+                .OrderByDescending(g => g.Count())
+                .FirstOrDefaultAsync();
+
+            var result = new MostReservedBookResult();
+
+            if (mostReservedBook != null)
+            {
+                var bookTitle = await _context.Book
+                    .Where(b => b.Reservation.LibraryMemberFk == mostReservedBook.Key)
+                    .Select(b => b.Title)
+                    .FirstOrDefaultAsync();
+
+                result.MostReservedBookTitle = bookTitle;
+                result.ReservationCount = mostReservedBook.Count();
+            }
+            else
+            {
+                result.MostReservedBookTitle = "No reservations found in the specified date range.";
+                result.ReservationCount = 0;
+            }
+
+            return result;
         }
     }
 }

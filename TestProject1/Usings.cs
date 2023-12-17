@@ -1,0 +1,10 @@
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.VisualStudio.TestTools.UnitTesting;
+global using Moq;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Threading.Tasks;
+global using VVS_projekat.Controllers;
+global using VVS_projekat.Data;
+global using VVS_projekat.Models;

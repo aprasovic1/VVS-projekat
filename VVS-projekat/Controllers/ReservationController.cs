@@ -89,7 +89,25 @@ namespace VVS_projekat.Controllers
             ViewBag.Books = _context.Book.Where(b => b.ReservationFk == null).Select(b => new { b.BookId, b.Title }).ToList();
             return View(reservation);
         }
+/*
+        // POST: Reservation/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("ReservationId,IssuedDate,ReturnDate,Status,LibraryMemberFk")] Reservation reservation)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(reservation);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(reservation);
+        }
 
+
+        */
 
         // GET: Reservation/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -174,6 +192,40 @@ namespace VVS_projekat.Controllers
         private bool ReservationExists(int id)
         {
             return _context.Reservation.Any(e => e.ReservationId == id);
+        }
+
+
+        // CountReservation
+        // GET: Reservation/CountReservation
+        // Counts the total number of reservations in the library.
+        [HttpGet]
+        [Route("CountReservation")]
+        public async Task<CountReservationResult> CountReservation()
+        {
+            int reservationNumber = await _context.Reservation.CountAsync();
+            var result = new CountReservationResult
+            {
+                numberOfReservations = reservationNumber
+            };
+            return result;
+        }
+
+        // GET: Reservation/LateActivatedReservations
+        // Displays reservations that were activated after the reservation date.
+        [HttpGet]
+        [Route("LateActivatedReservations")]
+        public async Task<LateActivatedResult> LateActivatedReservations()
+        {
+            var lateActivatedReservations = await _context.Reservation
+                .Where(r => r.Status == "Activated" && r.IssuedDate < r.ReturnDate)
+                .ToListAsync();
+
+            var result = new LateActivatedResult
+            {
+                LateActivatedReservations = lateActivatedReservations
+            };
+
+            return result;
         }
     }
 }

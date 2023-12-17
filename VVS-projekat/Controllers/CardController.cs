@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -54,10 +54,11 @@ namespace VVS_projekat.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CardID,CardNumber,CardExpirationDate,CardAmount")] Card card)
+        public async Task<IActionResult> Create([Bind("CardID,CardExpirationDate,CardAmount")] Card card)
         {
             if (ModelState.IsValid)
             {
+                card.CardNumber = GeerateCardNumber();
                 _context.Add(card);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -156,6 +157,25 @@ namespace VVS_projekat.Controllers
         private bool CardExists(int id)
         {
           return _context.Card.Any(e => e.CardID == id);
+        }
+        //Generates a random card number using Luhn algorithm
+        private static string GeerateCardNumber()
+        {
+            Random random = new Random();
+            string cardNumber = "";
+            int total = 0;
+            for (int i = 0; i < 15; i++)
+            {
+                int randomNumber = random.Next(0, 10);
+                cardNumber += randomNumber;
+                if (i % 2 == 0)
+                {
+                    randomNumber *= 2;
+                }
+                total += randomNumber / 10 + randomNumber % 10;
+            }
+            cardNumber += (10 - total % 10) % 10;
+            return cardNumber;
         }
     }
 }
