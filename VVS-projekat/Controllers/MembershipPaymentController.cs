@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -157,15 +157,20 @@ namespace VVS_projekat.Controllers
         {
             return _context.MembershipPayment.Any(e => e.MembershipPaymentId == id);
         }
-                public static bool CardisValid(string number)
+        public static bool CardisValid(string number)
         {
+            long cache;
+            bool check = long.TryParse(number, out cache);
+            if (!check) return false;
             int checksum = int.Parse(number[number.Length - 1].ToString());
             int total = 0;
 
             for (int i = number.Length - 2; i >= 0; i--)
             {
                 int sum = 0;
-                int digit = int.Parse(number[i].ToString());
+                int digit;
+                check = int.TryParse((number[i].ToString()), out digit);
+                if (!check) return false;
                 if (i % 2 == 0)
                 {
                     digit *= 2;
@@ -178,7 +183,7 @@ namespace VVS_projekat.Controllers
             return (10 - total % 10) == checksum;
         }
 
-        private static bool VerifyCardAmount(Card card, decimal amount)
+        public static bool VerifyCardAmount(Card card, decimal amount)
         {
             if (card == null || card.CardAmount < amount)
             {
@@ -188,4 +193,4 @@ namespace VVS_projekat.Controllers
         }
     }
     }
-//Greska:Viska zagrada}
+
